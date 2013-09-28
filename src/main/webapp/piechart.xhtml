@@ -1,0 +1,88 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:h="http://java.sun.com/jsf/html">
+<h:head>
+    <title>Sunday School Written Competition Student Registration</title>
+    <h:outputStylesheet library="css" name="table-style.css"/>
+</h:head>
+<h:body>
+    <ui:composition template="/commonLayout.xhtml">
+        <ui:define name="content">
+            <h:form id="topform">
+                <table  border="1">
+                    <tr>
+                        <td valign="top">
+                            <p:panelGrid columns="2">
+                                <f:facet name="header">Distribution Data</f:facet>
+                                <h:outputLabel for="category" value="Category"/>
+                                <p:selectOneMenu id="category" label="Select Category" value="#{registrationBean.category}">
+                                <f:selectItem itemLabel="#{registrationBean.BIBLE_QUIZ}"
+                                                  itemValue="#{registrationBean.BIBLE_QUIZ}"/>
+                                    <f:selectItem itemLabel="#{registrationBean.STORY_WRITING}"
+                                                  itemValue="#{registrationBean.STORY_WRITING}"/>
+                                    <f:selectItem itemLabel="#{registrationBean.ESSAY_WRITING}"
+                                                  itemValue="#{registrationBean.ESSAY_WRITING}"/>
+                                    <f:selectItem itemLabel="#{registrationBean.POETRY}"
+                                                  itemValue="#{registrationBean.POETRY}"/>
+                                    <f:selectItem itemLabel="#{registrationBean.DRAWING}"
+                                                  itemValue="#{registrationBean.DRAWING}"/>
+                                </p:selectOneMenu>
+
+                                <h:outputLabel for="group" value="Group"/>
+                                <p:selectOneMenu id="group" label="Select Group" value="#{registrationBean.group}">
+                                    <f:selectItem itemLabel="#{registrationBean.GROUP_1}"
+                                                  itemValue="#{registrationBean.GROUP_1}"/>
+                                    <f:selectItem itemLabel="#{registrationBean.GROUP_2}"
+                                                  itemValue="#{registrationBean.GROUP_2}"/>
+                                    <f:selectItem itemLabel="#{registrationBean.GROUP_3}"
+                                                  itemValue="#{registrationBean.GROUP_3}"/>
+                                    <f:selectItem itemLabel="#{registrationBean.GROUP_4}"
+                                                  itemValue="#{registrationBean.GROUP_4}"/>
+                                    <f:selectItem itemLabel="#{registrationBean.GROUP_5}"
+                                                  itemValue="#{registrationBean.GROUP_5}"/>
+                                    <f:selectItem itemLabel="#{registrationBean.GROUP_6}"
+                                                  itemValue="#{registrationBean.GROUP_6}"/>
+                                    <f:selectItem itemLabel="#{registrationBean.GROUP_7}"
+                                                  itemValue="#{registrationBean.GROUP_7}"/>
+                                </p:selectOneMenu>
+
+                                <f:facet name="footer">
+                                    <p:commandButton ajax="true" value="Display" action="#{registrationBean.displayData}" update=":topform:formid:custom,:topform:values:list"/>
+                                </f:facet>
+
+                            </p:panelGrid>
+                        </td>
+                        <td valign="top">
+                            <h:form id="values">
+                                <p:dataTable id="list" var="distributionData"
+                                             value="#{registrationBean.distributionDataList}" editable="true">
+                                    <f:facet name="header">
+                                        Distribution Data
+                                    </f:facet>
+
+                                    <p:column headerText="Church">
+                                        <h:outputText value="#{distributionData.churchName}"/>
+                                    </p:column>
+                                    <p:column headerText="Number">
+                                        <h:outputText value="#{distributionData.number}"/>
+                                    </p:column>
+                                </p:dataTable>
+                            </h:form>
+                        </td>
+                        <td align="center" valign="top">
+                            <h:form id="formid">
+                                <p:pieChart id="custom" value="#{registrationBean.pieModel}" legendPosition="e" fill="false" showDataLabels="true"
+                                            title="Distribution Chart" style="width:400px;height:300px" sliceMargin="5" diameter="150" />
+                            </h:form>
+                        </td>
+                    </tr>
+                </table>
+            </h:form>
+        </ui:define>
+    </ui:composition>
+</h:body>
+</html>
