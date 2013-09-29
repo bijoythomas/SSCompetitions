@@ -2,7 +2,9 @@
         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml"
       xmlns:h="http://java.sun.com/jsf/html"
-      xmlns:f="http://java.sun.com/jsf/core" xmlns:ui="http://java.sun.com/jsf/facelets">
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:p="http://primefaces.org/ui">
 <h:head>
     <title>Sunday School Written Competition Student Registration</title>
     <h:outputStylesheet library="css" name="table-style.css"  />
@@ -11,30 +13,26 @@
     <ui:composition template="/commonLayout.xhtml">
         <ui:define name="content">
             <h:form>
-                <h4>Enter Score</h4>
-                <table>
-                    <tr>
-                        <td>Select Judge</td>
-                        <td>
-                            <h:selectOneMenu label="Select Judge" value="#{judgeBean.selectedJudge}">
-                                <f:selectItem itemLabel="#{judgeBean.judge1}" itemValue="#{judgeBean.judge1}" />
-                                <f:selectItem itemLabel="#{judgeBean.judge2}" itemValue="#{judgeBean.judge2}" />
-                                <f:selectItem itemLabel="#{judgeBean.judge3}" itemValue="#{judgeBean.judge3}" />
-                            </h:selectOneMenu>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Enter Competition ID:</td>
-                        <td><h:inputText size="10" value="#{judgeBean.id}" /></td>
-                    </tr>
-                    <tr>
-                        <td>Enter Score:</td>
-                        <td><h:inputText size="10" value="#{judgeBean.score}" /></td>
-                    </tr>
+                <p:panelGrid columns="2">
+                    <f:facet name="header">Scores Form</f:facet>
 
-                </table>
-                <p><h:messages /></p>
-                <p><h:commandButton value="Update" action="#{judgeBean.saveScore}" /></p>
+                    <h:outputLabel for="judge" value="Select Judge"/>
+                    <p:selectOneMenu id="judge" label="Select Judge" value="#{judgeBean.selectedJudge}">
+                        <f:selectItem itemLabel="#{judgeBean.judge1}" itemValue="#{judgeBean.judge1}" />
+                        <f:selectItem itemLabel="#{judgeBean.judge2}" itemValue="#{judgeBean.judge2}" />
+                        <f:selectItem itemLabel="#{judgeBean.judge3}" itemValue="#{judgeBean.judge3}" />
+                    </p:selectOneMenu>
+
+                    <h:outputLabel for="studentid" value="Enter Competition ID"/>
+                    <p:inputText id="studentid" size="20" value="#{judgeBean.id}"/>
+
+                    <h:outputLabel for="score" value="Enter Score"/>
+                    <p:inputText id="score" size="20" value="#{judgeBean.score}"/>
+                    <f:facet name="footer">
+                        <p:commandButton value="Update" action="#{judgeBean.saveScore}"/>
+                    </f:facet>
+                </p:panelGrid>
+
             </h:form>
         </ui:define>
     </ui:composition>
