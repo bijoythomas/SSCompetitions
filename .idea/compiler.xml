@@ -25,6 +25,9 @@
         <module name="JavaServerFaces" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="JavaServerFaces" target="1.6" />
+    </bytecodeTargetLevel>
   </component>
 </project>
 

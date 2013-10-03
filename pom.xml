@@ -93,6 +93,15 @@
 		</dependency>           
 	</dependencies>
 
+    <build>
+        <resources>
+            <resource>
+                <directory>src/main/resources</directory>
+                <filtering>true</filtering>
+            </resource>
+        </resources>
+    </build>
+
 	<profiles>
 		<profile>
 			<!-- When built in OpenShift the 'openshift' profile will be used when 
@@ -103,6 +112,11 @@
 				folder. -->
 			<!-- http://maven.apache.org/guides/mini/guide-building-for-different-environments.html -->
 			<id>openshift</id>
+            <properties>
+                <db.username>admin6FUYIyh</db.username>
+                <db.password>azKLDQNKrht-</db.password>
+                <db.schema>dswa</db.schema>
+            </properties>
 			<build>
 				<finalName>dswa</finalName>
 				<plugins>
@@ -117,5 +131,13 @@
 				</plugins>
 			</build>
 		</profile>
+        <profile>
+            <id>local</id>
+            <properties>
+                <db.username>diyuser</db.username>
+                <db.password>diyuser</db.password>
+                <db.schema>diyuser</db.schema>
+            </properties>
+        </profile>
 	</profiles>
 </project>
