@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ba49958-4d69-49f1-aca6-77a1de534816" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/db.properties" />
-      <change type="DELETED" beforePath="C:\Users\sg0211412\Documents\GitHub\SSCompetitions\.idea\libraries\Maven__mysql_mysql_connector_java_5_1_9.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/sundayschool/persistence/HibernateUtil.java" afterPath="$PROJECT_DIR$/src/main/java/com/sundayschool/persistence/HibernateUtil.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JavaServerFaces.iml" afterPath="$PROJECT_DIR$/JavaServerFaces.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/JavaServerFaces_war.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/JavaServerFaces_war.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/JavaServerFaces_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/JavaServerFaces_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/login-security.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/login-security.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="JavaServerFaces.iws" />
@@ -30,21 +24,28 @@
     <file path="/StudentInfo.java" changelist="6ba49958-4d69-49f1-aca6-77a1de534816" time="1376756843479" ignored="false" />
     <file path="/StudentInfo.hbm.xml" changelist="6ba49958-4d69-49f1-aca6-77a1de534816" time="1376286252464" ignored="false" />
     <file path="/hibernate.cfg.xml" changelist="6ba49958-4d69-49f1-aca6-77a1de534816" time="1376688720209" ignored="false" />
-    <file path="/search.xhtml" changelist="6ba49958-4d69-49f1-aca6-77a1de534816" time="1380403286390" ignored="false" />
+    <file path="/search.xhtml" changelist="6ba49958-4d69-49f1-aca6-77a1de534816" time="1380961004016" ignored="false" />
     <file path="/showall.xhtml" changelist="6ba49958-4d69-49f1-aca6-77a1de534816" time="1380409763952" ignored="false" />
     <file path="/JudgeBean.java" changelist="6ba49958-4d69-49f1-aca6-77a1de534816" time="1376356371925" ignored="false" />
     <file path="/scores.xhtml" changelist="6ba49958-4d69-49f1-aca6-77a1de534816" time="1380412762606" ignored="false" />
-    <file path="/HibernateUtil.java" changelist="6ba49958-4d69-49f1-aca6-77a1de534816" time="1380773718254" ignored="false" />
-    <file path="/commonHeader.xhtml" changelist="6ba49958-4d69-49f1-aca6-77a1de534816" time="1380391621666" ignored="false" />
-    <file path="/commonLayout.xhtml" changelist="6ba49958-4d69-49f1-aca6-77a1de534816" time="1380410005415" ignored="false" />
+    <file path="/HibernateUtil.java" changelist="6ba49958-4d69-49f1-aca6-77a1de534816" time="1380964072419" ignored="false" />
+    <file path="/commonHeader.xhtml" changelist="6ba49958-4d69-49f1-aca6-77a1de534816" time="1380961282507" ignored="false" />
+    <file path="/commonLayout.xhtml" changelist="6ba49958-4d69-49f1-aca6-77a1de534816" time="1380960994904" ignored="false" />
     <file path="/piechart.xhtml" changelist="6ba49958-4d69-49f1-aca6-77a1de534816" time="1380409206960" ignored="false" />
     <file path="/ChartBean.java" changelist="6ba49958-4d69-49f1-aca6-77a1de534816" time="1380404984078" ignored="false" />
     <file path="/DistributionData.java" changelist="6ba49958-4d69-49f1-aca6-77a1de534816" time="1380408689435" ignored="false" />
-    <file path="/a.dummy" changelist="6ba49958-4d69-49f1-aca6-77a1de534816" time="1380409981025" ignored="false" />
+    <file path="/a.dummy" changelist="6ba49958-4d69-49f1-aca6-77a1de534816" time="1380961530865" ignored="false" />
     <file path="/commonFooter.xhtml" changelist="6ba49958-4d69-49f1-aca6-77a1de534816" time="1380410060494" ignored="false" />
-    <file path="/Dummy.txt" changelist="6ba49958-4d69-49f1-aca6-77a1de534816" time="1380764681431" ignored="false" />
+    <file path="/Dummy.txt" changelist="6ba49958-4d69-49f1-aca6-77a1de534816" time="1380981651111" ignored="false" />
     <file path="/.gitignore" changelist="6ba49958-4d69-49f1-aca6-77a1de534816" time="1380413296934" ignored="false" />
     <file path="/db.properties" changelist="6ba49958-4d69-49f1-aca6-77a1de534816" time="1380772730391" ignored="false" />
+    <file path="/admin-home.jsp" changelist="6ba49958-4d69-49f1-aca6-77a1de534816" time="1380959916131" ignored="false" />
+    <file path="/login.properties" changelist="6ba49958-4d69-49f1-aca6-77a1de534816" time="1380958663814" ignored="false" />
+    <file path="/login-servlet.xml" changelist="6ba49958-4d69-49f1-aca6-77a1de534816" time="1380959080068" ignored="false" />
+    <file path="/home.jsp" changelist="6ba49958-4d69-49f1-aca6-77a1de534816" time="1380959976901" ignored="false" />
+    <file path="/web.xml" changelist="6ba49958-4d69-49f1-aca6-77a1de534816" time="1380960940766" ignored="false" />
+    <file path="/login-service.xml" changelist="6ba49958-4d69-49f1-aca6-77a1de534816" time="1380964452133" ignored="false" />
+    <file path="/login-security.xml" changelist="6ba49958-4d69-49f1-aca6-77a1de534816" time="1380989533040" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +60,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/sundayschool/beans/RegistrationBean.java" line="153" class="com.sundayschool.beans.RegistrationBean" package="com.sundayschool.beans">
         <option name="ENABLED" value="true" />
@@ -75,7 +77,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/sundayschool/persistence/HibernateUtil.java" line="26" class="com.sundayschool.persistence.HibernateUtil" package="com.sundayschool.persistence">
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/sundayschool/persistence/HibernateUtil.java" line="30" class="com.sundayschool.persistence.HibernateUtil" package="com.sundayschool.persistence">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -90,22 +92,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/sundayschool/persistence/HibernateUtil.java" line="16" class="com.sundayschool.persistence.HibernateUtil" package="com.sundayschool.persistence">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/sundayschool/persistence/HibernateUtil.java" line="29" class="com.sundayschool.persistence.HibernateUtil" package="com.sundayschool.persistence">
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/sundayschool/persistence/HibernateUtil.java" line="56" class="com.sundayschool.persistence.HibernateUtil" package="com.sundayschool.persistence">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -157,7 +144,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -170,7 +156,7 @@
       <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="96" column="19" selection-start="2597" selection-end="2597" vertical-scroll-proportion="0.0">
+            <state line="108" column="21" selection-start="3164" selection-end="3164" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -188,16 +174,16 @@
       <file leaf-file-name="HibernateUtil.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/sundayschool/persistence/HibernateUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="0" selection-start="1253" selection-end="1253" vertical-scroll-proportion="0.0">
+            <state line="11" column="33" selection-start="268" selection-end="276" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RegistrationBean.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="RegistrationBean.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/sundayschool/beans/RegistrationBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="80" column="0" selection-start="3192" selection-end="3192" vertical-scroll-proportion="0.3323782">
+            <state line="80" column="0" selection-start="3192" selection-end="3192" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -206,7 +192,7 @@
       <file leaf-file-name="db.properties" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/db.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="4" selection-start="4" selection-end="4" vertical-scroll-proportion="0.0">
+            <state line="2" column="11" selection-start="59" selection-end="59" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -217,14 +203,138 @@
           <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
             <state />
           </provider>
-          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
-            <state />
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="22" selection-start="837" selection-end="837" vertical-scroll-proportion="1.36">
+              <folding />
+            </state>
           </provider>
           <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
             <state />
           </provider>
+          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login-servlet.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/login-servlet.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="58" selection-start="433" selection-end="433" vertical-scroll-proportion="-5.44">
+            <state line="10" column="70" selection-start="585" selection-end="585" vertical-scroll-proportion="-2.72">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login-security.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/login-security.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="39" selection-start="744" selection-end="744" vertical-scroll-proportion="0.21150278">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.properties" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/login.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/login.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="34" column="0" selection-start="839" selection-end="839" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="40" selection-start="397" selection-end="397" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="search.xhtml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/search.xhtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="40" selection-start="560" selection-end="560" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="commonLayout.xhtml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/commonLayout.xhtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="43" column="43" selection-start="1701" selection-end="1701" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="commonFooter.xhtml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/commonFooter.xhtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="commonHeader.xhtml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/commonHeader.xhtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="0" selection-start="554" selection-end="554" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="top_logo.jpg" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/images/top_logo.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="admin-home.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin-home.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="38" selection-start="290" selection-end="290" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HomeController.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sundayschool/controllers/HomeController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="21" selection-start="418" selection-end="418" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AdminController.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sundayschool/controllers/AdminController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="36" selection-start="8" selection-end="36" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login-service.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/login-service.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="44" selection-start="1011" selection-end="1011" vertical-scroll-proportion="-0.68">
               <folding />
             </state>
           </provider>
@@ -248,22 +358,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/commonHeader.xhtml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/register.xhtml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sundayschool/beans/ChartBean.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sundayschool/beans/DistributionData.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sundayschool/beans/RegistrationBean.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/piechart.xhtml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/commonLayout.xhtml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/commonFooter.xhtml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/showall.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sundayschool/controllers/AdminController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/login.properties" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/login-servlet.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/admin-home.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/home.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/login.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin-home.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/search.xhtml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/scores.xhtml" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/main/resources/db.properties" />
-        <option value="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/commonLayout.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/commonHeader.xhtml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/sundayschool/persistence/HibernateUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/login-service.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/login-security.xml" />
       </list>
     </option>
   </component>
@@ -307,6 +417,42 @@
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
+          <option name="myItemId" value="Dependencies" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$DependenciesNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="org.springframework:spring-context:3.0.5.RELEASE" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$DependencyNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="dswa" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Dependencies" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$DependenciesNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="org.springframework:spring-core:3.0.5.RELEASE" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$DependencyNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="dswa" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
           <option name="myItemId" value="Lifecycle" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
         </PATH_ELEMENT>
@@ -336,7 +482,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
@@ -355,6 +501,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -405,6 +552,66 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaServerFaces" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SSCompetitions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaServerFaces" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SSCompetitions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -428,9 +635,86 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaServerFaces" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SSCompetitions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaServerFaces" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SSCompetitions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sundayschool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaServerFaces" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SSCompetitions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sundayschool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -455,15 +739,15 @@
     <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\sg0211412\JavaServerFaces\src\main\webapp\images" />
-      <recent name="C:\Users\sg0211412\JavaServerFaces\src\main\resources\com\sundayschool\beans" />
-      <recent name="C:\Users\sg0211412\JavaServerFaces\src\main\resources" />
-      <recent name="C:\Users\sg0211412\JavaServerFaces\src\main\webapp\resources\com.sundayschool.beans" />
-      <recent name="C:\Users\sg0211412\JavaServerFaces\src\main\webapp\resources\css" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.sundayschool" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\sg0211412\Documents\GitHub\SSCompetitions\src\main\webapp\resources" />
+      <recent name="C:\Users\sg0211412\Documents\GitHub\SSCompetitions\src\main\webapp\WEB-INF\views" />
+      <recent name="C:\Users\sg0211412\Documents\GitHub\SSCompetitions\src\main\resources" />
+      <recent name="C:\Users\sg0211412\JavaServerFaces\src\main\webapp\images" />
+      <recent name="C:\Users\sg0211412\JavaServerFaces\src\main\resources\com\sundayschool\beans" />
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.JSF">
@@ -781,15 +1065,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32868218" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3984496" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3984496" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -798,14 +1082,14 @@
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19985358" sideWeight="0.6015504" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26061493" sideWeight="0.731783" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998326" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20644216" sideWeight="0.6015504" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36744186" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3272328" sideWeight="0.45581394" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26821706" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998326" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32868218" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -879,153 +1163,81 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/default.css">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/search.xhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/commonHeader.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="52" selection-start="432" selection-end="432" vertical-scroll-proportion="0.0" />
+        <state line="12" column="40" selection-start="560" selection-end="560" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/commonLayout.xhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="45" selection-start="640" selection-end="640" vertical-scroll-proportion="0.0" />
+        <state line="43" column="43" selection-start="1701" selection-end="1701" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/commonFooter.xhtml">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/commonHeader.xhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="18" selection-start="1051" selection-end="1051" vertical-scroll-proportion="0.0" />
+        <state line="16" column="0" selection-start="554" selection-end="554" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="jar://$MAVEN_REPOSITORY$/c3p0/c3p0/0.9.1/c3p0-0.9.1.jar!/com/mchange/v2/c3p0/ComboPooledDataSource.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="7" selection-start="623" selection-end="623" vertical-scroll-proportion="0.0" />
+        <state line="6" column="19" selection-start="168" selection-end="168" vertical-scroll-proportion="80.24" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/commonContent.xhtml">
+    <entry file="jar://C:/Java-64bit/jdk1.6.0_23/src.zip!/javax/sql/CommonDataSource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="546" selection-end="546" vertical-scroll-proportion="0.0" />
+        <state line="17" column="17" selection-start="435" selection-end="435" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/register.xhtml">
+    <entry file="jar://C:/Java-64bit/jdk1.6.0_23/src.zip!/javax/sql/DataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="43" selection-start="2479" selection-end="2479" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/3.0.5.RELEASE/spring-jdbc-3.0.5.RELEASE.jar!/org/springframework/jdbc/datasource/AbstractDataSource.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="68" selection-start="233" selection-end="233" vertical-scroll-proportion="0.68" />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/3.0.5.RELEASE/spring-jdbc-3.0.5.RELEASE.jar!/org/springframework/jdbc/datasource/AbstractDriverBasedDataSource.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="100" selection-start="265" selection-end="265" vertical-scroll-proportion="2.72" />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/3.0.5.RELEASE/spring-jdbc-3.0.5.RELEASE.jar!/org/springframework/jdbc/datasource/DriverManagerDataSource.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="86" selection-start="251" selection-end="251" vertical-scroll-proportion="-2.08" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="108" column="21" selection-start="3164" selection-end="3164" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/login.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="uml://MAVEN/JavaServerFaces:JavaServerFaces:1.0-SNAPSHOT">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>MAVEN</ID>
-          <OriginalElement>JavaServerFaces:JavaServerFaces:1.0-SNAPSHOT</OriginalElement>
-          <nodes>
-            <node x="" y="">org.hibernate:hibernate:jar:3.0.5/ehcache:ehcache:jar:1.1</node>
-            <node x="" y="">org.springframework.security:spring-security-core:jar:3.0.5.RELEASE/org.springframework:spring-expression:jar:3.0.3.RELEASE</node>
-            <node x="" y="">org.springframework.security:spring-security-core:jar:3.0.5.RELEASE/org.springframework:spring-aop:jar:3.0.3.RELEASE/org.springframework:spring-beans:jar:3.0.3.RELEASE</node>
-            <node x="" y="">org.springframework:spring-web:jar:3.0.5.RELEASE/aopalliance:aopalliance:jar:1.0</node>
-            <node x="" y="">org.springframework.security:spring-security-acl:jar:3.0.5.RELEASE/org.springframework.security:spring-security-core:jar:3.0.5.RELEASE</node>
-            <node x="" y="">org.springframework.security:spring-security-taglibs:jar:3.0.5.RELEASE/org.springframework:spring-web:jar:3.0.3.RELEASE</node>
-            <node x="" y="">org.springframework:spring-jdbc:jar:3.0.5.RELEASE/org.springframework:spring-tx:jar:3.0.5.RELEASE/org.springframework:spring-context:jar:3.0.5.RELEASE</node>
-            <node x="" y="">org.springframework:spring-jdbc:jar:3.0.5.RELEASE/org.springframework:spring-tx:jar:3.0.5.RELEASE</node>
-            <node x="" y="">org.springframework:spring-web:jar:3.0.5.RELEASE/org.springframework:spring-context:jar:3.0.5.RELEASE/org.springframework:spring-core:jar:3.0.5.RELEASE</node>
-            <node x="" y="">org.springframework:spring-webmvc:jar:3.0.5.RELEASE/org.springframework:spring-expression:jar:3.0.5.RELEASE/org.springframework:spring-core:jar:3.0.5.RELEASE</node>
-            <node x="" y="">com.google.guava:guava:jar:r09</node>
-            <node x="" y="">org.springframework:spring-web:jar:3.0.5.RELEASE/org.springframework:spring-context:jar:3.0.5.RELEASE</node>
-            <node x="" y="">org.hibernate:hibernate:jar:3.0.5/hibernate:antlr:jar:2.7.5H3</node>
-            <node x="" y="">org.springframework:spring-web:jar:3.0.5.RELEASE/org.springframework:spring-core:jar:3.0.5.RELEASE</node>
-            <node x="" y="">org.springframework:spring-webmvc:jar:3.0.5.RELEASE/org.springframework:spring-context:jar:3.0.5.RELEASE</node>
-            <node x="" y="">org.springframework.security:spring-security-web:jar:3.0.5.RELEASE/org.springframework:spring-web:jar:3.0.3.RELEASE</node>
-            <node x="" y="">org.hibernate:hibernate:jar:3.0.5/cglib:cglib:jar:2.0.2</node>
-            <node x="" y="">com.sun.faces:jsf-api:jar:2.1.7</node>
-            <node x="" y="">org.springframework:spring-web:jar:3.0.5.RELEASE/org.springframework:spring-beans:jar:3.0.5.RELEASE/org.springframework:spring-core:jar:3.0.5.RELEASE</node>
-            <node x="" y="">org.primefaces.extensions:primefaces-extensions:jar:0.7.0</node>
-            <node x="" y="">mysql:mysql-connector-java:jar:5.1.9</node>
-            <node x="" y="">org.springframework:spring-webmvc:jar:3.0.5.RELEASE/org.springframework:spring-core:jar:3.0.5.RELEASE</node>
-            <node x="" y="">org.hibernate:hibernate:jar:3.0.5/javax.transaction:jta:jar:1.0.1B</node>
-            <node x="" y="">org.springframework.security:spring-security-core:jar:3.0.5.RELEASE/org.springframework:spring-aop:jar:3.0.3.RELEASE/aopalliance:aopalliance:jar:1.0</node>
-            <node x="" y="">org.springframework:spring-webmvc:jar:3.0.5.RELEASE/org.springframework:spring-context-support:jar:3.0.5.RELEASE</node>
-            <node x="" y="">org.springframework:spring-core:jar:3.0.5.RELEASE</node>
-            <node x="" y="">org.springframework.security:spring-security-acl:jar:3.0.5.RELEASE</node>
-            <node x="" y="">org.springframework:spring-jdbc:jar:3.0.5.RELEASE/org.springframework:spring-tx:jar:3.0.5.RELEASE/aopalliance:aopalliance:jar:1.0</node>
-            <node x="" y="">org.springframework:spring-jdbc:jar:3.0.5.RELEASE/org.springframework:spring-tx:jar:3.0.5.RELEASE/org.springframework:spring-core:jar:3.0.5.RELEASE</node>
-            <node x="" y="">org.springframework.security:spring-security-config:jar:3.0.5.RELEASE</node>
-            <node x="" y="">org.springframework:spring-jdbc:jar:3.0.5.RELEASE</node>
-            <node x="" y="">org.springframework.security:spring-security-core:jar:3.0.5.RELEASE/org.aspectj:aspectjweaver:jar:1.6.8</node>
-            <node x="" y="">org.springframework:spring-jdbc:jar:3.0.5.RELEASE/org.springframework:spring-core:jar:3.0.5.RELEASE</node>
-            <node x="" y="">org.springframework.security:spring-security-web:jar:3.0.5.RELEASE/org.springframework.security:spring-security-core:jar:3.0.5.RELEASE</node>
-            <node x="" y="">org.springframework:spring-webmvc:jar:3.0.5.RELEASE/org.springframework:spring-context-support:jar:3.0.5.RELEASE/org.springframework:spring-beans:jar:3.0.5.RELEASE</node>
-            <node x="" y="">org.springframework:spring-webmvc:jar:3.0.5.RELEASE</node>
-            <node x="" y="">org.springframework:spring-webmvc:jar:3.0.5.RELEASE/org.springframework:spring-asm:jar:3.0.5.RELEASE</node>
-            <node x="" y="">org.springframework:spring-web:jar:3.0.5.RELEASE</node>
-            <node x="" y="">javax.servlet:jstl:jar:1.2</node>
-            <node x="" y="">org.springframework:spring-web:jar:3.0.5.RELEASE/org.springframework:spring-context:jar:3.0.5.RELEASE/org.springframework:spring-expression:jar:3.0.5.RELEASE</node>
-            <node x="" y="">org.springframework.security:spring-security-core:jar:3.0.5.RELEASE/org.springframework:spring-aop:jar:3.0.3.RELEASE</node>
-            <node x="" y="">com.sun.faces:jsf-impl:jar:2.1.7</node>
-            <node x="" y="">org.springframework.security:spring-security-acl:jar:3.0.5.RELEASE/org.springframework:spring-jdbc:jar:3.0.3.RELEASE</node>
-            <node x="" y="">org.springframework:spring-jdbc:jar:3.0.5.RELEASE/org.springframework:spring-tx:jar:3.0.5.RELEASE/org.springframework:spring-beans:jar:3.0.5.RELEASE</node>
-            <node x="" y="">org.springframework:spring-web:jar:3.0.5.RELEASE/org.springframework:spring-context:jar:3.0.5.RELEASE/org.springframework:spring-beans:jar:3.0.5.RELEASE</node>
-            <node x="" y="">org.springframework.security:spring-security-web:jar:3.0.5.RELEASE</node>
-            <node x="" y="">org.springframework:spring-webmvc:jar:3.0.5.RELEASE/org.springframework:spring-web:jar:3.0.5.RELEASE</node>
-            <node x="" y="">org.hibernate:hibernate:jar:3.0.5/dom4j:dom4j:jar:1.6</node>
-            <node x="" y="">org.hibernate:hibernate:jar:3.0.5/ehcache:ehcache:jar:1.1/commons-logging:commons-logging:jar:1.0.4</node>
-            <node x="" y="">org.springframework.security:spring-security-core:jar:3.0.5.RELEASE/org.aspectj:aspectjrt:jar:1.6.8</node>
-            <node x="" y="">org.springframework.security:spring-security-config:jar:3.0.5.RELEASE/org.springframework.security:spring-security-core:jar:3.0.5.RELEASE</node>
-            <node x="" y="">org.springframework:spring-webmvc:jar:3.0.5.RELEASE/org.springframework:spring-context-support:jar:3.0.5.RELEASE/org.springframework:spring-context:jar:3.0.5.RELEASE</node>
-            <node x="" y="">org.springframework.security:spring-security-taglibs:jar:3.0.5.RELEASE</node>
-            <node x="" y="">org.springframework:spring-jdbc:jar:3.0.5.RELEASE/org.springframework:spring-tx:jar:3.0.5.RELEASE/org.springframework:spring-aop:jar:3.0.5.RELEASE</node>
-            <node x="" y="">org.primefaces.extensions:primefaces-extensions:jar:0.7.0/com.google.code.gson:gson:jar:2.2.2</node>
-            <node x="" y="">org.hibernate:hibernate:jar:3.0.5/commons-logging:commons-logging:jar:1.0.4</node>
-            <node x="" y="">org.springframework.security:spring-security-core:jar:3.0.5.RELEASE/org.springframework:spring-core:jar:3.0.3.RELEASE</node>
-            <node x="" y="">org.hibernate:hibernate:jar:3.0.5/commons-collections:commons-collections:jar:2.1.1</node>
-            <node x="" y="">org.springframework.security:spring-security-core:jar:3.0.5.RELEASE/org.springframework:spring-aop:jar:3.0.3.RELEASE/org.springframework:spring-core:jar:3.0.3.RELEASE</node>
-            <node x="" y="">org.springframework.security:spring-security-core:jar:3.0.5.RELEASE/org.springframework:spring-context:jar:3.0.3.RELEASE</node>
-            <node x="" y="">c3p0:c3p0:jar:0.9.1</node>
-            <node x="" y="">org.springframework.security:spring-security-core:jar:3.0.5.RELEASE</node>
-            <node x="" y="">org.hibernate:hibernate:jar:3.0.5/asm:asm:jar:1.4.3</node>
-            <node x="" y="">org.springframework:spring-web:jar:3.0.5.RELEASE/org.springframework:spring-context:jar:3.0.5.RELEASE/org.springframework:spring-asm:jar:3.0.5.RELEASE</node>
-            <node x="" y="">org.springframework:spring-web:jar:3.0.5.RELEASE/org.springframework:spring-context:jar:3.0.5.RELEASE/org.springframework:spring-aop:jar:3.0.5.RELEASE</node>
-            <node x="" y="">org.springframework:spring-webmvc:jar:3.0.5.RELEASE/org.springframework:spring-context-support:jar:3.0.5.RELEASE/org.springframework:spring-core:jar:3.0.5.RELEASE</node>
-            <node x="" y="">org.hibernate:hibernate:jar:3.0.5</node>
-            <node x="" y="">org.springframework.security:spring-security-core:jar:3.0.5.RELEASE/org.springframework:spring-tx:jar:3.0.3.RELEASE</node>
-            <node x="" y="">org.primefaces.extensions:primefaces-extensions:jar:0.7.0/org.primefaces:primefaces:jar:3.5</node>
-            <node x="" y="">org.springframework:spring-jdbc:jar:3.0.5.RELEASE/org.springframework:spring-beans:jar:3.0.5.RELEASE</node>
-            <node x="" y="">javax.validation:validation-api:jar:1.0.0.GA</node>
-            <node x="" y="">org.springframework:spring-webmvc:jar:3.0.5.RELEASE/org.springframework:spring-expression:jar:3.0.5.RELEASE</node>
-            <node x="" y="">org.springframework:spring-web:jar:3.0.5.RELEASE/org.springframework:spring-beans:jar:3.0.5.RELEASE</node>
-            <node x="" y="">org.springframework:spring-core:jar:3.0.5.RELEASE/org.springframework:spring-asm:jar:3.0.5.RELEASE</node>
-            <node x="" y="">org.primefaces.themes:bluesky:jar:1.0.1</node>
-            <node x="" y="">org.springframework.security:spring-security-taglibs:jar:3.0.5.RELEASE/org.springframework.security:spring-security-web:jar:3.0.5.RELEASE</node>
-            <node x="" y="">org.springframework:spring-core:jar:3.0.5.RELEASE/commons-logging:commons-logging:jar:1.1.1</node>
-            <node x="" y="">org.primefaces.extensions:primefaces-extensions:jar:0.7.0/org.apache.commons:commons-lang3:jar:3.1</node>
-            <node x="" y="">org.springframework.security:spring-security-core:jar:3.0.5.RELEASE/org.springframework:spring-aop:jar:3.0.3.RELEASE/org.springframework:spring-asm:jar:3.0.3.RELEASE</node>
-            <node x="" y="">JavaServerFaces:JavaServerFaces:1.0-SNAPSHOT</node>
-            <node x="" y="">org.springframework.security:spring-security-acl:jar:3.0.5.RELEASE/org.springframework:spring-context-support:jar:3.0.3.RELEASE</node>
-            <node x="" y="">org.springframework.security:spring-security-taglibs:jar:3.0.5.RELEASE/org.springframework.security:spring-security-acl:jar:3.0.5.RELEASE</node>
-            <node x="" y="">org.springframework:spring-webmvc:jar:3.0.5.RELEASE/org.springframework:spring-beans:jar:3.0.5.RELEASE</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="0.8424242424242425" x="240.0" y="2404.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>All</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/search.xhtml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sundayschool/persistence/HibernateUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="41.192307">
+        <state line="11" column="33" selection-start="268" selection-end="276" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.openshift/config/web.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/login-service.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="0" selection-start="1888" selection-end="1888" vertical-scroll-proportion="1.744868">
+        <state line="22" column="44" selection-start="1011" selection-end="1011" vertical-scroll-proportion="-0.68">
           <folding />
         </state>
       </provider>
@@ -1034,49 +1246,28 @@
       <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
         <state />
       </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
-        <state />
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="22" selection-start="837" selection-end="837" vertical-scroll-proportion="1.36">
+          <folding />
+        </state>
       </provider>
       <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
         <state />
       </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/login-servlet.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="58" selection-start="433" selection-end="433" vertical-scroll-proportion="-5.44">
+        <state line="10" column="70" selection-start="585" selection-end="585" vertical-scroll-proportion="-2.72">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/db.properties">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/login-security.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="4" selection-start="4" selection-end="4" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="26" selection-start="864" selection-end="864" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="96" column="19" selection-start="2597" selection-end="2597" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sundayschool/persistence/HibernateUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="0" selection-start="1253" selection-end="1253" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sundayschool/beans/RegistrationBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="0" selection-start="3192" selection-end="3192" vertical-scroll-proportion="0.3323782">
+        <state line="13" column="39" selection-start="744" selection-end="744" vertical-scroll-proportion="0.21150278">
           <folding />
         </state>
       </provider>

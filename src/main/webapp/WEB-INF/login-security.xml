@@ -11,6 +11,7 @@ http://www.springframework.org/schema/security/spring-security-3.0.xsd">
     <http>
         <intercept-url pattern="/home*" access="ROLE_USER,ROLE_ADMIN" />
         <intercept-url pattern="/admin*" access="ROLE_ADMIN" />
+        <intercept-url pattern="/faces/*" access="ROLE_USER,ROLE_ADMIN"/>
         <form-login login-page="/login.jsp" default-target-url="/home" authentication-failure-url="/login.jsp?error=true"/>
         <logout logout-success-url="/login.jsp" />
         <anonymous username="guest" granted-authority="ROLE_GUEST"/>

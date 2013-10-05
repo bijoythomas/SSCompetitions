@@ -50,6 +50,7 @@ build/
 [Bb]in/
 [Oo]bj/
 target/
+Maven_*.xml
 
 # MSTest test Results
 [Tt]est[Rr]esult*/
