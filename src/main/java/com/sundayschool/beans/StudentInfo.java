@@ -17,6 +17,7 @@ public class StudentInfo {
     String ssGroup;
     String categoryCode;
     String category;
+    String venue;
     int judge1Marks;
     int judge2Marks;
     int judge3Marks;
@@ -36,12 +37,13 @@ public class StudentInfo {
     public StudentInfo() {
     }
 
-    public StudentInfo(String firstName, String lastName, String church, String category, String ssGroup) {
+    public StudentInfo(String firstName, String lastName, String church, String category, String ssGroup, String venue) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.church = church;
         this.category = category;
         this.ssGroup = ssGroup;
+        this.venue = venue;
         categoryCode = categoryMapLookup.get(category);
     }
 
@@ -140,6 +142,14 @@ public class StudentInfo {
     public void setNextStudentInfo(StudentInfo nextStudentInfo) {
         this.nextStudentInfo = nextStudentInfo;
     }*/
+
+    public String getVenue() {
+        return venue;
+    }
+
+    public void setVenue(String venue) {
+        this.venue = venue;
+    }
 
     @Override
     public String toString() {

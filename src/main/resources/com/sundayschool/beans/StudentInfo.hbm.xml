@@ -16,6 +16,7 @@
         <property name="church" column="church" type="string"/>
         <property name="categoryCode" column="category_code" type="string"/>
         <property name="ssGroup" column="ss_group" type="string"/>
+        <property name="venue" column="venue" type="string"/>
         <property name="judge1Marks" column="judge1_marks" type="integer"/>
         <property name="judge2Marks" column="judge2_marks" type="integer"/>
         <property name="judge3Marks" column="judge3_marks" type="integer"/>

@@ -1,5 +1,9 @@
 package com.sundayschool.beans;
 
+import com.google.common.collect.Lists;
+import com.sundayschool.constants.Categories;
+import com.sundayschool.constants.ChurchNames;
+import com.sundayschool.constants.Groups;
 import com.sundayschool.persistence.HibernateUtil;
 import org.hibernate.Query;
 import org.hibernate.Transaction;
@@ -14,6 +18,8 @@ import javax.faces.context.FacesContext;
 import java.util.*;
 
 import static com.sundayschool.beans.StudentInfo.categoryMapLookup;
+import static com.sundayschool.constants.Categories.BIBLE_QUIZ;
+import static com.sundayschool.constants.ChurchNames.SMFB;
 
 @ManagedBean
 @SessionScoped
@@ -26,6 +32,10 @@ public class RegistrationBean {
     protected String category;
     protected String group;
     protected String church;
+    protected String venue;
+    List<String> availableChurches;
+    List<String> availableCategories;
+    List<String> availableGroups;
 
     // Church Constants
     public static String SMFB = "St. Mary's, Farmers Branch";
@@ -89,7 +99,7 @@ public class RegistrationBean {
     }
     public String addAction() {
 
-        StudentInfo studentInfo = new StudentInfo(this.firstName, this.lastName, this.church, this.category, this.group);
+        StudentInfo studentInfo = new StudentInfo(this.firstName, this.lastName, this.church, this.category, this.group, this.venue);
 
         studentInfoList.add(studentInfo);
         return null;
@@ -332,5 +342,37 @@ public class RegistrationBean {
 
     public void setSearchList(List<StudentInfo> searchList) {
         this.searchList = searchList;
+    }
+
+    public List<String> getAvailableChurches() {
+        return Arrays.asList(ChurchNames.SMFB, ChurchNames.SGIR, ChurchNames.SMCOI, ChurchNames.STDL, ChurchNames.SPPL, ChurchNames.SGGL, ChurchNames.STJM);
+    }
+
+    public void setAvailableChurches(List<String> availableChurches) {
+        this.availableChurches = availableChurches;
+    }
+
+    public List<String> getAvailableCategories() {
+        return Arrays.asList(Categories.BIBLE_QUIZ, Categories.DRAWING, Categories.ESSAY_WRITING, Categories.STORY_WRITING, Categories.POETRY);
+    }
+
+    public void setAvailableCategories(List<String> availableCategories) {
+        this.availableCategories = availableCategories;
+    }
+
+    public List<String> getAvailableGroups() {
+        return Arrays.asList(Groups.GROUP_1, Groups.GROUP_2, Groups.GROUP_3, Groups.GROUP_4, Groups.GROUP_5, Groups.GROUP_6, Groups.GROUP_7);
+    }
+
+    public void setAvailableGroups(List<String> availableGroups) {
+        this.availableGroups = availableGroups;
+    }
+
+    public String getVenue() {
+        return venue;
+    }
+
+    public void setVenue(String venue) {
+        this.venue = venue;
     }
 }
