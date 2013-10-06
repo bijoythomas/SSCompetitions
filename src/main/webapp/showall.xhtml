@@ -21,16 +21,25 @@
                         <h:outputLabel for="church" value="Church"/>
                         <p:selectOneMenu id="church" label="Select Church" value="#{registrationBean.church}">
                             <f:selectItems value="#{registrationBean.availableChurches}" />
+                            <f:selectItem itemValue="All" itemLabel="All" />
                         </p:selectOneMenu>
 
                         <h:outputLabel for="category" value="Category"/>
                         <p:selectOneMenu id="category" label="Select Category" value="#{registrationBean.category}">
                             <f:selectItems value="#{registrationBean.availableCategories}" />
+                            <f:selectItem itemValue="All" itemLabel="All" />
                         </p:selectOneMenu>
 
                         <h:outputLabel for="group" value="Group"/>
                         <p:selectOneMenu id="group" label="Select Group" value="#{registrationBean.group}">
                             <f:selectItems value="#{registrationBean.availableGroups}" />
+                            <f:selectItem itemValue="All" itemLabel="All" />
+                        </p:selectOneMenu>
+
+                        <h:outputLabel for="venue" value="Venue"/>
+                        <p:selectOneMenu id="venue" label="Select Venue" value="#{registrationBean.venue}">
+                            <f:selectItems value="#{registrationBean.availableChurches}" />
+                            <f:selectItem itemValue="All" itemLabel="All" />
                         </p:selectOneMenu>
 
                         <f:facet name="footer">

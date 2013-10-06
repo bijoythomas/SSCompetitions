@@ -89,10 +89,14 @@ public class RegistrationBean {
         searchList.clear();
         Session session = HibernateUtil.getSessionFactory().openSession();
         String church = this.church.equals("All")? "%" : this.church;
-        Query query = session.createQuery("from StudentInfo where church like :church and ssGroup = :ssGroup and categoryCode = :categoryCode");
+        String group = this.group.equals("All")? "%" : this.group;
+        String venue = this.venue.equals("All")? "%" : this.venue;
+        String category = this.category.equals("All")? "%" : categoryMapLookup.get(this.category);
+        Query query = session.createQuery("from StudentInfo where church like :church and ssGroup like :ssGroup and categoryCode like :categoryCode and venue like :venue");
         query.setParameter("church", church);
-        query.setParameter("ssGroup", this.group);
-        query.setParameter("categoryCode", categoryMapLookup.get(this.category));
+        query.setParameter("ssGroup", group);
+        query.setParameter("categoryCode", category);
+        query.setParameter("venue", venue);
         searchList.addAll(query.list());
         session.close();
         return null;
