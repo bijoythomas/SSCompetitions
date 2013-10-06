@@ -82,11 +82,11 @@
 			<artifactId>bluesky</artifactId>
 			<version>1.0.1</version>
 		</dependency>
-		<dependency>
+		<!--<dependency>
 			<groupId>org.postgresql</groupId>
 			<artifactId>postgresql</artifactId>
 			<version>9.2-1003-jdbc4</version>
-		</dependency>
+		</dependency>-->
 		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
@@ -159,6 +159,13 @@
             <artifactId>c3p0</artifactId>
             <version>0.9.1</version>
         </dependency>
+       <!-- <dependency>
+            <groupId>org.apache.tomcat</groupId>
+            <artifactId>catalina</artifactId>
+            <version>6.0.37</version>
+            <scope>compile</scope>
+        </dependency>-->
+
     </dependencies>
 
     <build>

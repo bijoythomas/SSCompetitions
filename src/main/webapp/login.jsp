@@ -5,7 +5,7 @@
     <title>Login</title>
 </head>
 
-<body>
+<body background="/resources/images/censer.jpg" background-size=cover>
 <c:if test="${not empty param.error}">
     <font color="red">
         Login error. <br />
@@ -15,11 +15,11 @@
 <form method="POST" action="<c:url value="/j_spring_security_check" />">
     <table>
         <tr>
-            <td align="right">Username</td>
+            <td align="right"><h1>Username</h1></td>
             <td><input type="text" name="j_username" /></td>
         </tr>
         <tr>
-            <td align="right">Password</td>
+            <td align="right"><h1>Password</h1></td>
             <td><input type="password" name="j_password" /></td>
         </tr>
 
