@@ -349,7 +349,8 @@ public class RegistrationBean {
     }
 
     public List<String> getAvailableChurches() {
-        return Arrays.asList(ChurchNames.SMFB, ChurchNames.SGIR, ChurchNames.SMCOI, ChurchNames.STDL, ChurchNames.SPPL, ChurchNames.SGGL, ChurchNames.STJM);
+        return Arrays.asList(ChurchNames.SMFB, ChurchNames.SGIR, ChurchNames.SMCOI,
+                ChurchNames.STDL, ChurchNames.SPPL, ChurchNames.SGGL, ChurchNames.STJM, ChurchNames.STOK);
     }
 
     public void setAvailableChurches(List<String> availableChurches) {
@@ -357,7 +358,8 @@ public class RegistrationBean {
     }
 
     public List<String> getAvailableCategories() {
-        return Arrays.asList(Categories.BIBLE_QUIZ, Categories.DRAWING, Categories.ESSAY_WRITING, Categories.STORY_WRITING, Categories.POETRY);
+        return Arrays.asList(Categories.BIBLE_QUIZ, Categories.DRAWING, Categories.ESSAY_WRITING,
+                Categories.STORY_WRITING, Categories.POETRY);
     }
 
     public void setAvailableCategories(List<String> availableCategories) {
@@ -365,7 +367,8 @@ public class RegistrationBean {
     }
 
     public List<String> getAvailableGroups() {
-        return Arrays.asList(Groups.GROUP_1, Groups.GROUP_2, Groups.GROUP_3, Groups.GROUP_4, Groups.GROUP_5, Groups.GROUP_6, Groups.GROUP_7);
+        return Arrays.asList(Groups.GROUP_1, Groups.GROUP_2, Groups.GROUP_3, Groups.GROUP_4,
+                Groups.GROUP_5, Groups.GROUP_6, Groups.GROUP_7);
     }
 
     public void setAvailableGroups(List<String> availableGroups) {
