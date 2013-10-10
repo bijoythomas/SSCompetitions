@@ -12,4 +12,5 @@ public interface ChurchNames
     public static String SGGL = "St. Gregorios, Garland";
     public static String STJM = "St. James, Carrollton";
     public static String STOK = "St. Thomas, Oklahoma";
+    
 }
