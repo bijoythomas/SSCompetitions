@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6ba49958-4d69-49f1-aca6-77a1de534816" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/sundayschool/constants/ChurchNames.java" afterPath="$PROJECT_DIR$/src/main/java/com/sundayschool/constants/ChurchNames.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/sundayschool/beans/RegistrationBean.java" afterPath="$PROJECT_DIR$/src/main/java/com/sundayschool/beans/RegistrationBean.java" />
     </list>
     <ignored path="JavaServerFaces.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -14,7 +15,7 @@
     <file path="$PROJECT_DIR$/src/main/java/com/sundayschool/beans.java" changelist="6ba49958-4d69-49f1-aca6-77a1de534816" time="1376264855363" ignored="false" />
     <file path="/GroupConstants.java" changelist="6ba49958-4d69-49f1-aca6-77a1de534816" time="1376265307815" ignored="false" />
     <file path="/ChurchConstants.java" changelist="6ba49958-4d69-49f1-aca6-77a1de534816" time="1376265426696" ignored="false" />
-    <file path="/RegistrationBean.java" changelist="6ba49958-4d69-49f1-aca6-77a1de534816" time="1381382256467" ignored="false" />
+    <file path="/RegistrationBean.java" changelist="6ba49958-4d69-49f1-aca6-77a1de534816" time="1381383712943" ignored="false" />
     <file path="/BibleQuizStudents.java" changelist="6ba49958-4d69-49f1-aca6-77a1de534816" time="1376268998306" ignored="false" />
     <file path="/StudentCategory.java" changelist="6ba49958-4d69-49f1-aca6-77a1de534816" time="1376268415288" ignored="false" />
     <file path="/StudentInfo.java" changelist="6ba49958-4d69-49f1-aca6-77a1de534816" time="1381096621455" ignored="false" />
@@ -109,7 +110,16 @@
       <file leaf-file-name="ChurchNames.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/sundayschool/constants/ChurchNames.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="4" selection-start="609" selection-end="609" vertical-scroll-proportion="0.38449112">
+            <state line="14" column="0" selection-start="583" selection-end="583" vertical-scroll-proportion="0.58476657">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RegistrationBean.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sundayschool/beans/RegistrationBean.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="344" column="122" selection-start="10256" selection-end="10256" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -146,9 +156,9 @@
         <option value="$PROJECT_DIR$/src/main/webapp/search.xhtml" />
         <option value="$PROJECT_DIR$/src/main/webapp/register.xhtml" />
         <option value="$PROJECT_DIR$/src/main/webapp/showall.xhtml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sundayschool/beans/RegistrationBean.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/piechart.xhtml" />
         <option value="$PROJECT_DIR$/src/main/java/com/sundayschool/constants/ChurchNames.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sundayschool/beans/RegistrationBean.java" />
       </list>
     </option>
   </component>
@@ -598,11 +608,11 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32868218" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32868218" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15959005" sideWeight="0.59534883" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15959005" sideWeight="0.6713178" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998326" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22401172" sideWeight="0.59534883" order="0" side_tool="false" content_ui="combo" />
@@ -683,13 +693,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/db.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="11" selection-start="59" selection-end="59" vertical-scroll-proportion="0.058925476">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/commonHeader.xhtml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="19" selection-start="357" selection-end="357" vertical-scroll-proportion="0.030852994">
@@ -784,9 +787,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sundayschool/beans/RegistrationBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="344" column="122" selection-start="10256" selection-end="10256" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sundayschool/constants/ChurchNames.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="4" selection-start="609" selection-end="609" vertical-scroll-proportion="0.38449112">
+        <state line="14" column="0" selection-start="583" selection-end="583" vertical-scroll-proportion="0.58476657">
           <folding />
         </state>
       </provider>

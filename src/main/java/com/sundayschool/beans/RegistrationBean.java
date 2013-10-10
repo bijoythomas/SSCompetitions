@@ -342,7 +342,7 @@ public class RegistrationBean {
 
     public List<String> getAvailableChurches() {
         return Arrays.asList(ChurchNames.SMFB, ChurchNames.SGIR, ChurchNames.SMCOI,
-                ChurchNames.STDL, ChurchNames.SPPL, ChurchNames.SGGL, ChurchNames.STJM, ChurchNames.STOK);
+                ChurchNames.STDL, ChurchNames.SPPL, ChurchNames.SGGL, ChurchNames.STJM, ChurchNames.STOK, ChurchNames.STCL);
     }
 
     public void setAvailableChurches(List<String> availableChurches) {
