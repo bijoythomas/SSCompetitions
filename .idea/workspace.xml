@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ba49958-4d69-49f1-aca6-77a1de534816" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/sundayschool/beans/RegistrationBean.java" afterPath="$PROJECT_DIR$/src/main/java/com/sundayschool/beans/RegistrationBean.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/piechart.xhtml" afterPath="$PROJECT_DIR$/src/main/webapp/piechart.xhtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/register.xhtml" afterPath="$PROJECT_DIR$/src/main/webapp/register.xhtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/search.xhtml" afterPath="$PROJECT_DIR$/src/main/webapp/search.xhtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/showall.xhtml" afterPath="$PROJECT_DIR$/src/main/webapp/showall.xhtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/sundayschool/constants/ChurchNames.java" afterPath="$PROJECT_DIR$/src/main/java/com/sundayschool/constants/ChurchNames.java" />
     </list>
     <ignored path="JavaServerFaces.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -49,7 +44,7 @@
     <file path="/login-security.xml" changelist="6ba49958-4d69-49f1-aca6-77a1de534816" time="1380994095478" ignored="false" />
     <file path="/login.jsp" changelist="6ba49958-4d69-49f1-aca6-77a1de534816" time="1380997444365" ignored="false" />
     <file path="/HomeController.java" changelist="6ba49958-4d69-49f1-aca6-77a1de534816" time="1380993730238" ignored="false" />
-    <file path="/ChurchNames.java" changelist="6ba49958-4d69-49f1-aca6-77a1de534816" time="1381115143909" ignored="false" />
+    <file path="/ChurchNames.java" changelist="6ba49958-4d69-49f1-aca6-77a1de534816" time="1381382856274" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,269 +106,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="155" column="21" selection-start="5021" selection-end="5021" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="hibernate.cfg.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="63" selection-start="805" selection-end="805" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StudentInfo.hbm.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/com/sundayschool/beans/StudentInfo.hbm.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="20" selection-start="1189" selection-end="1189" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HibernateUtil.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/sundayschool/persistence/HibernateUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="0" selection-start="1998" selection-end="1998" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RegistrationBean.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/sundayschool/beans/RegistrationBean.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="122" column="16" selection-start="4999" selection-end="4999" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="piechart.xhtml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/piechart.xhtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="127" selection-start="3784" selection-end="3784" vertical-scroll-proportion="1.0039062">
-              <folding>
-                <marker date="1381382452071" expanded="true" signature="5344:5368" placeholder="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Categories.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/sundayschool/constants/Categories.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="57" selection-start="350" selection-end="350" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ChurchNames.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="ChurchNames.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/sundayschool/constants/ChurchNames.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="27" selection-start="463" selection-end="463" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="db.properties" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/db.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="11" selection-start="59" selection-end="59" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="commonHeader.xhtml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/commonHeader.xhtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="19" selection-start="357" selection-end="357" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="web.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
-            <state />
-          </provider>
-          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
-            <state />
-          </provider>
-          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="51" selection-start="251" selection-end="251" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StudentInfo.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/sundayschool/beans/StudentInfo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="38" selection-start="615" selection-end="615" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="register.xhtml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/register.xhtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="91" column="96" selection-start="5419" selection-end="5419" vertical-scroll-proportion="-13.192307">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Groups.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/sundayschool/constants/Groups.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="45" selection-start="407" selection-end="407" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login-servlet.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/login-servlet.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="0" selection-start="589" selection-end="589" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login-security.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/login-security.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="68" selection-start="847" selection-end="847" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.properties" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/login.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/login.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="39" selection-start="153" selection-end="153" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="censer.jpg" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/images/censer.jpg">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="40" selection-start="397" selection-end="397" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="search.xhtml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/search.xhtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="28" selection-start="2855" selection-end="2898" vertical-scroll-proportion="-15.038462">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="showall.xhtml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/showall.xhtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="104" selection-start="2535" selection-end="2535" vertical-scroll-proportion="-10.461538">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="commonLayout.xhtml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/commonLayout.xhtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="28" selection-start="1810" selection-end="1817" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="commonFooter.xhtml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/commonFooter.xhtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="top_logo.jpg" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/images/top_logo.jpg">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="admin-home.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin-home.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="38" selection-start="290" selection-end="290" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HomeController.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/sundayschool/controllers/HomeController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="16" selection-start="413" selection-end="413" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AdminController.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/sundayschool/controllers/AdminController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="36" selection-start="8" selection-end="36" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login-service.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/login-service.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="44" selection-start="1011" selection-end="1011" vertical-scroll-proportion="0.0">
+            <state line="10" column="1" selection-start="382" selection-end="382" vertical-scroll-proportion="0.2746365">
               <folding />
             </state>
           </provider>
@@ -407,12 +143,12 @@
         <option value="$PROJECT_DIR$/src/main/java/com/sundayschool/constants/Groups.java" />
         <option value="$PROJECT_DIR$/src/main/resources/com/sundayschool/beans/StudentInfo.hbm.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/sundayschool/beans/StudentInfo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sundayschool/constants/ChurchNames.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/search.xhtml" />
         <option value="$PROJECT_DIR$/src/main/webapp/register.xhtml" />
         <option value="$PROJECT_DIR$/src/main/webapp/showall.xhtml" />
         <option value="$PROJECT_DIR$/src/main/java/com/sundayschool/beans/RegistrationBean.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/piechart.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sundayschool/constants/ChurchNames.java" />
       </list>
     </option>
   </component>
@@ -471,7 +207,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1378" />
+    <option name="width" value="1382" />
     <option name="height" value="754" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -488,7 +224,7 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+    <navigator proportions="" version="1" splitterProportion="0.5">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -499,218 +235,7 @@
       <autoscrollFromSource />
       <sortByType />
     </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaServerFaces" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaServerFaces" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SSCompetitions" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaServerFaces" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SSCompetitions" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaServerFaces" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SSCompetitions" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaServerFaces" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SSCompetitions" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaServerFaces" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SSCompetitions" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaServerFaces" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SSCompetitions" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaServerFaces" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SSCompetitions" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaServerFaces" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SSCompetitions" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sundayschool" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaServerFaces" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SSCompetitions" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sundayschool" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="constants" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
@@ -1060,7 +585,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1378" height="754" extended-state="1" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32868218" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1077,11 +602,11 @@
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16005874" sideWeight="0.59534883" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15959005" sideWeight="0.59534883" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998326" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22401172" sideWeight="0.59534883" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.40465117" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40465117" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32868218" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1158,81 +683,89 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/db.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="11" selection-start="59" selection-end="59" vertical-scroll-proportion="0.058925476">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/commonHeader.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="19" selection-start="357" selection-end="357" vertical-scroll-proportion="0.030852994">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/login-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="589" selection-end="589" vertical-scroll-proportion="0.2582897">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/login-security.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="68" selection-start="847" selection-end="847" vertical-scroll-proportion="0.27142859">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/login.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="39" selection-start="153" selection-end="153" vertical-scroll-proportion="0.0">
+        <state line="7" column="39" selection-start="153" selection-end="153" vertical-scroll-proportion="0.02972028">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="155" column="21" selection-start="5021" selection-end="5021" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/images/censer.jpg">
+      <provider selected="true" editor-type-id="images">
         <state />
       </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="40" selection-start="397" selection-end="397" vertical-scroll-proportion="0.2972028">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/commonLayout.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="28" selection-start="1810" selection-end="1817" vertical-scroll-proportion="0.25463745">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/commonFooter.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/images/top_logo.jpg">
+      <provider selected="true" editor-type-id="images">
         <state />
       </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
-        <state />
-      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin-home.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="51" selection-start="251" selection-end="251" vertical-scroll-proportion="0.0">
+        <state line="8" column="38" selection-start="290" selection-end="290" vertical-scroll-proportion="0.22934233">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sundayschool/persistence/HibernateUtil.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sundayschool/controllers/HomeController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="0" selection-start="1998" selection-end="1998" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sundayschool/constants/Groups.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="45" selection-start="407" selection-end="407" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="63" selection-start="805" selection-end="805" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/com/sundayschool/beans/StudentInfo.hbm.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="20" selection-start="1189" selection-end="1189" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sundayschool/beans/StudentInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="38" selection-start="615" selection-end="615" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sundayschool/constants/Categories.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="57" selection-start="350" selection-end="350" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sundayschool/constants/ChurchNames.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="27" selection-start="463" selection-end="463" vertical-scroll-proportion="0.0">
+        <state line="10" column="16" selection-start="413" selection-end="413" vertical-scroll-proportion="0.2746365">
           <folding />
         </state>
       </provider>
@@ -1244,40 +777,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/search.xhtml">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/login-service.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="28" selection-start="2855" selection-end="2898" vertical-scroll-proportion="-15.038462">
+        <state line="22" column="44" selection-start="1011" selection-end="1011" vertical-scroll-proportion="0.028619528">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/register.xhtml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sundayschool/constants/ChurchNames.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="91" column="96" selection-start="5419" selection-end="5419" vertical-scroll-proportion="-13.192307">
+        <state line="10" column="1" selection-start="382" selection-end="382" vertical-scroll-proportion="0.2746365">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/showall.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="104" selection-start="2535" selection-end="2535" vertical-scroll-proportion="-10.461538">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sundayschool/beans/RegistrationBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="122" column="16" selection-start="4999" selection-end="4999" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/piechart.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="127" selection-start="3784" selection-end="3784" vertical-scroll-proportion="1.0039062">
-          <folding>
-            <marker date="1381382452071" expanded="true" signature="5344:5368" placeholder="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
