@@ -18,7 +18,7 @@
                 <table  border="1">
                     <tr>
                         <td>
-                            <p:panelGrid columns="2">
+                            <p:panelGrid id="panel" columns="2">
                                 <f:facet name="header">Registration Form </f:facet>
                                 <h:outputLabel for="church" value="Church"/>
                                 <p:selectOneMenu id="church" label="Select Church" value="#{registrationBean.church}">
@@ -49,8 +49,8 @@
                                 <f:facet name="footer">
                                     <p:commandButton value="Add" action="#{registrationBean.addAction}" update=":topform:formid:listofstudents"/>
                                 </f:facet>
-
                             </p:panelGrid>
+                            <p:blockUI block="panel" trigger="register"/>
                         </td>
                         <td align="center" valign="top">
                             <h:form id="formid">
@@ -89,7 +89,7 @@
 
                 <p><p:messages/></p>
 
-                <p><p:commandButton value="Register" action="#{registrationBean.confirm}" update=":topform:formid:listofstudents"/></p>
+                <p><p:commandButton id="register" value="Register" action="#{registrationBean.confirm}" update=":topform:formid:listofstudents"/></p>
             </h:form>
         </ui:define>
     </ui:composition>

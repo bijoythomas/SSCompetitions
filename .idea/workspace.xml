@@ -2,39 +2,42 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ba49958-4d69-49f1-aca6-77a1de534816" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/sundayschool/constants/ChurchNames.java" afterPath="$PROJECT_DIR$/src/main/java/com/sundayschool/constants/ChurchNames.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/sundayschool/beans/RegistrationBean.java" afterPath="$PROJECT_DIR$/src/main/java/com/sundayschool/beans/RegistrationBean.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/piechart.xhtml" afterPath="$PROJECT_DIR$/src/main/webapp/piechart.xhtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/register.xhtml" afterPath="$PROJECT_DIR$/src/main/webapp/register.xhtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/search.xhtml" afterPath="$PROJECT_DIR$/src/main/webapp/search.xhtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/showall.xhtml" afterPath="$PROJECT_DIR$/src/main/webapp/showall.xhtml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="JavaServerFaces.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/UserBean.java" changelist="6ba49958-4d69-49f1-aca6-77a1de534816" time="1376269114867" ignored="false" />
-    <file path="/register.xhtml" changelist="6ba49958-4d69-49f1-aca6-77a1de534816" time="1381096445124" ignored="false" />
+    <file path="/register.xhtml" changelist="6ba49958-4d69-49f1-aca6-77a1de534816" time="1381382067312" ignored="false" />
     <file path="/pom.xml" changelist="6ba49958-4d69-49f1-aca6-77a1de534816" time="1380996033991" ignored="false" />
     <file path="/fragment.java" changelist="6ba49958-4d69-49f1-aca6-77a1de534816" time="1380773869264" ignored="false" />
     <file path="/ItemBean.java" changelist="6ba49958-4d69-49f1-aca6-77a1de534816" time="1376262011552" ignored="false" />
     <file path="$PROJECT_DIR$/src/main/java/com/sundayschool/beans.java" changelist="6ba49958-4d69-49f1-aca6-77a1de534816" time="1376264855363" ignored="false" />
     <file path="/GroupConstants.java" changelist="6ba49958-4d69-49f1-aca6-77a1de534816" time="1376265307815" ignored="false" />
     <file path="/ChurchConstants.java" changelist="6ba49958-4d69-49f1-aca6-77a1de534816" time="1376265426696" ignored="false" />
-    <file path="/RegistrationBean.java" changelist="6ba49958-4d69-49f1-aca6-77a1de534816" time="1381115308145" ignored="false" />
+    <file path="/RegistrationBean.java" changelist="6ba49958-4d69-49f1-aca6-77a1de534816" time="1381382256467" ignored="false" />
     <file path="/BibleQuizStudents.java" changelist="6ba49958-4d69-49f1-aca6-77a1de534816" time="1376268998306" ignored="false" />
     <file path="/StudentCategory.java" changelist="6ba49958-4d69-49f1-aca6-77a1de534816" time="1376268415288" ignored="false" />
     <file path="/StudentInfo.java" changelist="6ba49958-4d69-49f1-aca6-77a1de534816" time="1381096621455" ignored="false" />
     <file path="/StudentInfo.hbm.xml" changelist="6ba49958-4d69-49f1-aca6-77a1de534816" time="1381095951662" ignored="false" />
     <file path="/hibernate.cfg.xml" changelist="6ba49958-4d69-49f1-aca6-77a1de534816" time="1376688720209" ignored="false" />
-    <file path="/search.xhtml" changelist="6ba49958-4d69-49f1-aca6-77a1de534816" time="1381097689019" ignored="false" />
-    <file path="/showall.xhtml" changelist="6ba49958-4d69-49f1-aca6-77a1de534816" time="1380409763952" ignored="false" />
+    <file path="/search.xhtml" changelist="6ba49958-4d69-49f1-aca6-77a1de534816" time="1381381813174" ignored="false" />
+    <file path="/showall.xhtml" changelist="6ba49958-4d69-49f1-aca6-77a1de534816" time="1381382219835" ignored="false" />
     <file path="/JudgeBean.java" changelist="6ba49958-4d69-49f1-aca6-77a1de534816" time="1376356371925" ignored="false" />
     <file path="/scores.xhtml" changelist="6ba49958-4d69-49f1-aca6-77a1de534816" time="1380412762606" ignored="false" />
     <file path="/HibernateUtil.java" changelist="6ba49958-4d69-49f1-aca6-77a1de534816" time="1380964072419" ignored="false" />
     <file path="/commonHeader.xhtml" changelist="6ba49958-4d69-49f1-aca6-77a1de534816" time="1380961282507" ignored="false" />
     <file path="/commonLayout.xhtml" changelist="6ba49958-4d69-49f1-aca6-77a1de534816" time="1380960994904" ignored="false" />
-    <file path="/piechart.xhtml" changelist="6ba49958-4d69-49f1-aca6-77a1de534816" time="1380409206960" ignored="false" />
+    <file path="/piechart.xhtml" changelist="6ba49958-4d69-49f1-aca6-77a1de534816" time="1381382441079" ignored="false" />
     <file path="/ChartBean.java" changelist="6ba49958-4d69-49f1-aca6-77a1de534816" time="1380404984078" ignored="false" />
     <file path="/DistributionData.java" changelist="6ba49958-4d69-49f1-aca6-77a1de534816" time="1380408689435" ignored="false" />
     <file path="/a.dummy" changelist="6ba49958-4d69-49f1-aca6-77a1de534816" time="1380995229757" ignored="false" />
     <file path="/commonFooter.xhtml" changelist="6ba49958-4d69-49f1-aca6-77a1de534816" time="1380410060494" ignored="false" />
-    <file path="/Dummy.txt" changelist="6ba49958-4d69-49f1-aca6-77a1de534816" time="1381115114982" ignored="false" />
+    <file path="/Dummy.txt" changelist="6ba49958-4d69-49f1-aca6-77a1de534816" time="1381381655480" ignored="false" />
     <file path="/.gitignore" changelist="6ba49958-4d69-49f1-aca6-77a1de534816" time="1380413296934" ignored="false" />
     <file path="/db.properties" changelist="6ba49958-4d69-49f1-aca6-77a1de534816" time="1380772730391" ignored="false" />
     <file path="/admin-home.jsp" changelist="6ba49958-4d69-49f1-aca6-77a1de534816" time="1380959916131" ignored="false" />
@@ -61,24 +64,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/sundayschool/beans/RegistrationBean.java" line="167" class="com.sundayschool.beans.RegistrationBean" package="com.sundayschool.beans">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </line_breakpoints>
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -115,6 +100,8 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -160,11 +147,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RegistrationBean.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="RegistrationBean.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/sundayschool/beans/RegistrationBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="370" column="11" selection-start="11126" selection-end="11126" vertical-scroll-proportion="0.82504606">
+            <state line="122" column="16" selection-start="4999" selection-end="4999" vertical-scroll-proportion="0.0">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="piechart.xhtml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/piechart.xhtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="53" column="127" selection-start="3784" selection-end="3784" vertical-scroll-proportion="1.0039062">
+              <folding>
+                <marker date="1381382452071" expanded="true" signature="5344:5368" placeholder="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -207,13 +205,13 @@
       </file>
       <file leaf-file-name="web.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
-            <state />
-          </provider>
           <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
             <state />
           </provider>
           <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
+            <state />
+          </provider>
+          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
@@ -235,7 +233,7 @@
       <file leaf-file-name="register.xhtml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/register.xhtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="0" selection-start="1694" selection-end="1694" vertical-scroll-proportion="0.0">
+            <state line="91" column="96" selection-start="5419" selection-end="5419" vertical-scroll-proportion="-13.192307">
               <folding />
             </state>
           </provider>
@@ -305,7 +303,7 @@
       <file leaf-file-name="search.xhtml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/search.xhtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="50" selection-start="2116" selection-end="2510" vertical-scroll-proportion="0.0">
+            <state line="47" column="28" selection-start="2855" selection-end="2898" vertical-scroll-proportion="-15.038462">
               <folding />
             </state>
           </provider>
@@ -314,7 +312,7 @@
       <file leaf-file-name="showall.xhtml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/showall.xhtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="72" selection-start="1265" selection-end="1265" vertical-scroll-proportion="-0.65384614">
+            <state line="45" column="104" selection-start="2535" selection-end="2535" vertical-scroll-proportion="-10.461538">
               <folding />
             </state>
           </provider>
@@ -399,7 +397,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/login-service.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/sundayschool/controllers/HomeController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/login-security.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/login-servlet.xml" />
@@ -409,12 +406,13 @@
         <option value="$PROJECT_DIR$/src/main/java/com/sundayschool/constants/Categories.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sundayschool/constants/Groups.java" />
         <option value="$PROJECT_DIR$/src/main/resources/com/sundayschool/beans/StudentInfo.hbm.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/register.xhtml" />
         <option value="$PROJECT_DIR$/src/main/java/com/sundayschool/beans/StudentInfo.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/search.xhtml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/showall.xhtml" />
         <option value="$PROJECT_DIR$/src/main/java/com/sundayschool/constants/ChurchNames.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/search.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/register.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/showall.xhtml" />
         <option value="$PROJECT_DIR$/src/main/java/com/sundayschool/beans/RegistrationBean.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/piechart.xhtml" />
       </list>
     </option>
   </component>
@@ -473,7 +471,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1382" />
+    <option name="width" value="1378" />
     <option name="height" value="754" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -731,9 +729,9 @@
     <property name="restartRequiresConfirmation" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -795,19 +793,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -834,6 +819,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -1062,7 +1060,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <frame x="-8" y="-8" width="1378" height="754" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32868218" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1079,11 +1077,11 @@
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16032211" sideWeight="0.59534883" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16005874" sideWeight="0.59534883" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998326" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22401172" sideWeight="0.59534883" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40465117" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.40465117" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32868218" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1160,16 +1158,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/images/top_logo.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/images/censer.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="39" selection-start="153" selection-end="153" vertical-scroll-proportion="0.0">
@@ -1185,13 +1173,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
-        <state />
-      </provider>
       <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
         <state />
       </provider>
       <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
@@ -1228,30 +1216,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/register.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="0" selection-start="1694" selection-end="1694" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sundayschool/beans/StudentInfo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="26" column="38" selection-start="615" selection-end="615" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/search.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="50" selection-start="2116" selection-end="2510" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/showall.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="72" selection-start="1265" selection-end="1265" vertical-scroll-proportion="-0.65384614">
           <folding />
         </state>
       </provider>
@@ -1270,10 +1237,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sundayschool/controllers/AdminController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="36" selection-start="8" selection-end="36" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/search.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="28" selection-start="2855" selection-end="2898" vertical-scroll-proportion="-15.038462">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/register.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="91" column="96" selection-start="5419" selection-end="5419" vertical-scroll-proportion="-13.192307">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/showall.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="104" selection-start="2535" selection-end="2535" vertical-scroll-proportion="-10.461538">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sundayschool/beans/RegistrationBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="370" column="11" selection-start="11126" selection-end="11126" vertical-scroll-proportion="0.82504606">
+        <state line="122" column="16" selection-start="4999" selection-end="4999" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/piechart.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="127" selection-start="3784" selection-end="3784" vertical-scroll-proportion="1.0039062">
+          <folding>
+            <marker date="1381382452071" expanded="true" signature="5344:5368" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>

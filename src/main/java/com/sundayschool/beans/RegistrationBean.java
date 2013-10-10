@@ -1,6 +1,5 @@
 package com.sundayschool.beans;
 
-import com.google.common.collect.Lists;
 import com.sundayschool.constants.Categories;
 import com.sundayschool.constants.ChurchNames;
 import com.sundayschool.constants.Groups;
@@ -8,7 +7,6 @@ import com.sundayschool.persistence.HibernateUtil;
 import org.hibernate.Query;
 import org.hibernate.Transaction;
 import org.hibernate.classic.Session;
-import org.primefaces.event.RowEditEvent;
 import org.primefaces.model.chart.PieChartModel;
 
 import javax.faces.application.FacesMessage;
@@ -18,8 +16,6 @@ import javax.faces.context.FacesContext;
 import java.util.*;
 
 import static com.sundayschool.beans.StudentInfo.categoryMapLookup;
-import static com.sundayschool.constants.Categories.BIBLE_QUIZ;
-import static com.sundayschool.constants.ChurchNames.SMFB;
 
 @ManagedBean
 @SessionScoped
@@ -88,10 +84,10 @@ public class RegistrationBean {
     {
         searchList.clear();
         Session session = HibernateUtil.getSessionFactory().openSession();
-        String church = this.church.equals("All")? "%" : this.church;
-        String group = this.group.equals("All")? "%" : this.group;
-        String venue = this.venue.equals("All")? "%" : this.venue;
-        String category = this.category.equals("All")? "%" : categoryMapLookup.get(this.category);
+        String church = this.church.equals("All") ? "%" : this.church;
+        String group = this.group.equals("All") ? "%" : this.group;
+        String venue = this.venue.equals("All") ? "%" : this.venue;
+        String category = this.category.equals("All") ? "%" : categoryMapLookup.get(this.category);
         Query query = session.createQuery("from StudentInfo where church like :church and ssGroup like :ssGroup and categoryCode like :categoryCode and venue like :venue");
         query.setParameter("church", church);
         query.setParameter("ssGroup", group);
@@ -101,6 +97,7 @@ public class RegistrationBean {
         session.close();
         return null;
     }
+
     public String addAction() {
 
         StudentInfo studentInfo = new StudentInfo(this.firstName, this.lastName, this.church, this.category, this.group, this.venue);
@@ -110,7 +107,6 @@ public class RegistrationBean {
     }
 
     public String confirm() {
-
         Session session = HibernateUtil.getSessionFactory().openSession();
         Transaction transaction = session.beginTransaction();
         for (StudentInfo studentInfo : studentInfoList) {
@@ -124,8 +120,7 @@ public class RegistrationBean {
         return null;
     }
 
-    public void displayData()
-    {
+    public void displayData() {
         pieModel.clear();
         distributionDataList.clear();
         Session session = HibernateUtil.getSessionFactory().openSession();
@@ -136,12 +131,9 @@ public class RegistrationBean {
         Map<String, Integer> results = new HashMap<String, Integer>();
         for (StudentInfo studentInfo : list) {
             Integer integer = results.get(studentInfo.church);
-            if (integer == null)
-            {
+            if (integer == null) {
                 results.put(studentInfo.church, 1);
-            }
-            else
-            {
+            } else {
                 results.put(studentInfo.church, integer + 1);
             }
         }
