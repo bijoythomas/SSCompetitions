@@ -49,32 +49,36 @@
                         </td>
                         <td valign="top">
                             <h:form id="data">
-                            <p:dataTable id="searchlist" var="studentInfo" value="#{registrationBean.searchList}"
-                                         styleClass="order-table"
-                                         headerClass="order-table-header"
-                                         rowClasses="order-table-odd-row,order-table-even-row">
-                                <p:column headerText="First Name" sortBy="#{studentInfo.firstName}">
-                                    <h:outputText value="#{studentInfo.firstName}"/>
-                                </p:column>
-                                <p:column headerText="Last Name" sortBy="#{studentInfo.lastName}">
-                                    <h:outputText value="#{studentInfo.lastName}"/>
-                                </p:column>
-                                <p:column headerText="Church" sortBy="#{studentInfo.church}">
-                                    <h:outputText value="#{studentInfo.church}"/>
-                                </p:column>
-                                <p:column headerText="Category" sortBy="#{studentInfo.categoryCode}">
-                                    <h:outputText value="#{studentInfo.categoryCode}"/>
-                                </p:column>
-                                <p:column headerText="Group" sortBy="#{studentInfo.ssGroup}">
-                                    <h:outputText value="#{studentInfo.ssGroup}"/>
-                                </p:column>
-                                <p:column headerText="Venue">
-                                    <h:outputText value="#{studentInfo.venue}"/>
-                                </p:column>
-                                <p:column headerText="Action">
-                                    <p:commandButton value="Delete" action="#{registrationBean.removeSearchItem(studentInfo)}" update="searchlist"/>
-                                </p:column>
-                            </p:dataTable>
+                                <p:dataTable id="searchlist" var="studentInfo" value="#{registrationBean.searchList}"
+                                             styleClass="order-table"
+                                             headerClass="order-table-header"
+                                             rowClasses="order-table-odd-row,order-table-even-row" paginator="true" rows="30">
+                                    <p:column headerText="First Name" sortBy="#{studentInfo.firstName}">
+                                        <h:outputText value="#{studentInfo.firstName}"/>
+                                    </p:column>
+                                    <p:column headerText="Last Name" sortBy="#{studentInfo.lastName}">
+                                        <h:outputText value="#{studentInfo.lastName}"/>
+                                    </p:column>
+                                    <p:column headerText="Church" sortBy="#{studentInfo.church}">
+                                        <h:outputText value="#{studentInfo.church}"/>
+                                    </p:column>
+                                    <p:column headerText="Category" sortBy="#{studentInfo.categoryCode}">
+                                        <h:outputText value="#{studentInfo.categoryCode}"/>
+                                    </p:column>
+                                    <p:column headerText="Group" sortBy="#{studentInfo.ssGroup}">
+                                        <h:outputText value="#{studentInfo.ssGroup}"/>
+                                    </p:column>
+                                    <p:column headerText="Venue">
+                                        <h:outputText value="#{studentInfo.venue}"/>
+                                    </p:column>
+                                    <p:column headerText="Action" exportable="false">
+                                        <p:commandButton value="Delete" action="#{registrationBean.removeSearchItem(studentInfo)}" update="searchlist"/>
+                                    </p:column>
+                                </p:dataTable>
+
+                                <p:commandButton value="Export XLS" ajax="false" icon="images/excel.png">
+                                    <p:dataExporter type="xls" target="searchlist" fileName="studentsList" />
+                                </p:commandButton>
                             </h:form>
                         </td>
                     </tr>
