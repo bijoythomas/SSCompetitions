@@ -86,6 +86,10 @@
                             <h:outputText value="#{studentInfo.totalMarks}" />
                         </p:column>
                     </p:dataTable>
+
+                    <p:commandButton value="Export XLS" ajax="false" icon="images/excel.png">
+                        <p:dataExporter type="xls" target="list" fileName="studentsList" />
+                    </p:commandButton>
                 </td>
             </tr>
         </table>
