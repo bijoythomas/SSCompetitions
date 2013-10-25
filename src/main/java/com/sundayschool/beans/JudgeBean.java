@@ -34,7 +34,8 @@ public class JudgeBean
 
         if (result == 1)
         {
-            FacesMessage facesMessage = new FacesMessage("Successfully updated the score");
+            FacesMessage facesMessage = new FacesMessage(FacesMessage.SEVERITY_INFO,
+                    "Info message", selectedJudge.toUpperCase() + " marks for ID " + id + " updated to " + score);
             FacesContext.getCurrentInstance().addMessage(null, facesMessage);
             return null;
         }

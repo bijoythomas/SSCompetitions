@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ba49958-4d69-49f1-aca6-77a1de534816" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/sundayschool/controllers/JudgeController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/judge-home.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/login-security.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/login-security.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/sundayschool/beans/JudgeBean.java" afterPath="$PROJECT_DIR$/src/main/java/com/sundayschool/beans/JudgeBean.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/scores.xhtml" afterPath="$PROJECT_DIR$/src/main/webapp/scores.xhtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/showall.xhtml" afterPath="$PROJECT_DIR$/src/main/webapp/showall.xhtml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="JavaServerFaces.iws" />
@@ -28,8 +24,8 @@
     <file path="/hibernate.cfg.xml" changelist="6ba49958-4d69-49f1-aca6-77a1de534816" time="1376688720209" ignored="false" />
     <file path="/search.xhtml" changelist="6ba49958-4d69-49f1-aca6-77a1de534816" time="1381709886077" ignored="false" />
     <file path="/showall.xhtml" changelist="6ba49958-4d69-49f1-aca6-77a1de534816" time="1382011026675" ignored="false" />
-    <file path="/JudgeBean.java" changelist="6ba49958-4d69-49f1-aca6-77a1de534816" time="1376356371925" ignored="false" />
-    <file path="/scores.xhtml" changelist="6ba49958-4d69-49f1-aca6-77a1de534816" time="1382013377437" ignored="false" />
+    <file path="/JudgeBean.java" changelist="6ba49958-4d69-49f1-aca6-77a1de534816" time="1382697045305" ignored="false" />
+    <file path="/scores.xhtml" changelist="6ba49958-4d69-49f1-aca6-77a1de534816" time="1382696844641" ignored="false" />
     <file path="/HibernateUtil.java" changelist="6ba49958-4d69-49f1-aca6-77a1de534816" time="1380964072419" ignored="false" />
     <file path="/commonHeader.xhtml" changelist="6ba49958-4d69-49f1-aca6-77a1de534816" time="1380961282507" ignored="false" />
     <file path="/commonLayout.xhtml" changelist="6ba49958-4d69-49f1-aca6-77a1de534816" time="1380960994904" ignored="false" />
@@ -38,7 +34,7 @@
     <file path="/DistributionData.java" changelist="6ba49958-4d69-49f1-aca6-77a1de534816" time="1380408689435" ignored="false" />
     <file path="/a.dummy" changelist="6ba49958-4d69-49f1-aca6-77a1de534816" time="1381706323535" ignored="false" />
     <file path="/commonFooter.xhtml" changelist="6ba49958-4d69-49f1-aca6-77a1de534816" time="1380410060494" ignored="false" />
-    <file path="/Dummy.txt" changelist="6ba49958-4d69-49f1-aca6-77a1de534816" time="1381973139302" ignored="false" />
+    <file path="/Dummy.txt" changelist="6ba49958-4d69-49f1-aca6-77a1de534816" time="1382696075113" ignored="false" />
     <file path="/.gitignore" changelist="6ba49958-4d69-49f1-aca6-77a1de534816" time="1380413296934" ignored="false" />
     <file path="/db.properties" changelist="6ba49958-4d69-49f1-aca6-77a1de534816" time="1380772730391" ignored="false" />
     <file path="/admin-home.jsp" changelist="6ba49958-4d69-49f1-aca6-77a1de534816" time="1380959916131" ignored="false" />
@@ -114,10 +110,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="home.jsp" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.jsp">
+      <file leaf-file-name="JudgeBean.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sundayschool/beans/JudgeBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="0" selection-start="738" selection-end="738" vertical-scroll-proportion="0.7733333">
+            <state line="37" column="112" selection-start="1271" selection-end="1271" vertical-scroll-proportion="0.8478803">
               <folding />
             </state>
           </provider>
@@ -141,7 +137,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/sundayschool/constants/Groups.java" />
         <option value="$PROJECT_DIR$/src/main/resources/com/sundayschool/beans/StudentInfo.hbm.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/sundayschool/beans/StudentInfo.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/register.xhtml" />
@@ -155,8 +150,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/sundayschool/controllers/JudgeController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/login-security.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/judge-home.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/scores.xhtml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/scores.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sundayschool/beans/JudgeBean.java" />
       </list>
     </option>
   </component>
@@ -525,9 +521,9 @@
     <property name="restartRequiresConfirmation" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -589,19 +585,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -628,6 +611,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -1008,13 +1004,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sundayschool/beans/JudgeBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/showall.xhtml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="90" column="63" selection-start="5416" selection-end="5416" vertical-scroll-proportion="1.224">
@@ -1036,13 +1025,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/scores.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="43" selection-start="1641" selection-end="1641" vertical-scroll-proportion="0.27466667">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -1060,6 +1042,20 @@
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="0" selection-start="738" selection-end="738" vertical-scroll-proportion="0.7733333">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/scores.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="62" selection-start="1871" selection-end="1871" vertical-scroll-proportion="0.58933336">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sundayschool/beans/JudgeBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="112" selection-start="1271" selection-end="1271" vertical-scroll-proportion="0.8478803">
           <folding />
         </state>
       </provider>
