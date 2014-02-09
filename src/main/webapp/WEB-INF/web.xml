@@ -51,6 +51,10 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
             /WEB-INF/login-service.xml
         </param-value>
     </context-param>
+    <context-param>
+        <param-name>primefaces.THEME</param-name>
+        <param-value>ui-darkness</param-value>
+    </context-param>
     <!-- Spring Security -->
     <filter>
         <filter-name>springSecurityFilterChain</filter-name>

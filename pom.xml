@@ -77,11 +77,11 @@
 			<artifactId>primefaces-extensions</artifactId>
 			<version>0.7.0</version>
 		</dependency>
-		<dependency>
-			<groupId>org.primefaces.themes</groupId>
-			<artifactId>bluesky</artifactId>
-			<version>1.0.1</version>
-		</dependency>
+        <dependency>
+            <groupId>org.primefaces.themes</groupId>
+            <artifactId>ui-darkness</artifactId>
+            <version>1.0.6</version>
+        </dependency>
 		<!--<dependency>
 			<groupId>org.postgresql</groupId>
 			<artifactId>postgresql</artifactId>
