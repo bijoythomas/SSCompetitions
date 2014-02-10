@@ -2,11 +2,10 @@ package com.sundayschool.beans;
 
 import com.google.common.base.Joiner;
 
-import javax.annotation.PostConstruct;
 import java.util.HashMap;
 import java.util.Map;
 
-import static com.sundayschool.beans.RegistrationBean.*;
+import static com.sundayschool.constants.Categories.*;
 import static java.util.Arrays.asList;
 
 public class StudentInfo {
@@ -22,16 +21,20 @@ public class StudentInfo {
     int judge2Marks;
     int judge3Marks;
     int totalMarks;
-//    private StudentInfo nextStudentInfo;
 
     public static Map<String, String> categoryMapLookup = new HashMap<String, String>();
 
     static {
-        categoryMapLookup.put(BIBLE_QUIZ, "BQ");
-        categoryMapLookup.put(DRAWING, "DR");
-        categoryMapLookup.put(ESSAY_WRITING, "ES");
-        categoryMapLookup.put(STORY_WRITING, "ST");
-        categoryMapLookup.put(POETRY, "PE");
+//        categoryMapLookup.put(BIBLE_QUIZ, "BQ");
+//        categoryMapLookup.put(DRAWING, "DR");
+//        categoryMapLookup.put(ESSAY_WRITING, "ES");
+//        categoryMapLookup.put(STORY_WRITING, "ST");
+//        categoryMapLookup.put(POETRY, "PE");
+        categoryMapLookup.put(GROUP_SONG_ENGLISH, "GE");
+        categoryMapLookup.put(GROUP_SONG_MALAYALAM, "GM");
+        categoryMapLookup.put(SOLO_SONG_ENGLISH, "SE");
+        categoryMapLookup.put(SOLO_SONG_MALAYALAM, "SM");
+        categoryMapLookup.put(ELOCUTION, "EL");
     }
 
     public StudentInfo() {
@@ -134,14 +137,6 @@ public class StudentInfo {
     public void setTotalMarks(int totalMarks) {
         this.totalMarks = totalMarks;
     }
-
-    /* public StudentInfo getNextStudentInfo() {
-        return nextStudentInfo;
-    }
-
-    public void setNextStudentInfo(StudentInfo nextStudentInfo) {
-        this.nextStudentInfo = nextStudentInfo;
-    }*/
 
     public String getVenue() {
         return venue;

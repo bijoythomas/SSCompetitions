@@ -187,34 +187,14 @@
                         <f:facet name="header">Distribution Data</f:facet>
                         <h:outputLabel for="category" value="Category"/>
                         <p:selectOneMenu id="category" label="Select Category" value="#{registrationBean.category}">
-                            <f:selectItem itemLabel="#{registrationBean.BIBLE_QUIZ}"
-                                          itemValue="#{registrationBean.BIBLE_QUIZ}"/>
-                            <f:selectItem itemLabel="#{registrationBean.STORY_WRITING}"
-                                          itemValue="#{registrationBean.STORY_WRITING}"/>
-                            <f:selectItem itemLabel="#{registrationBean.ESSAY_WRITING}"
-                                          itemValue="#{registrationBean.ESSAY_WRITING}"/>
-                            <f:selectItem itemLabel="#{registrationBean.POETRY}"
-                                          itemValue="#{registrationBean.POETRY}"/>
-                            <f:selectItem itemLabel="#{registrationBean.DRAWING}"
-                                          itemValue="#{registrationBean.DRAWING}"/>
+                            <f:selectItems value="#{registrationBean.availableCategories}"/>
+                            <f:selectItem itemValue="All" itemLabel="All"/>
                         </p:selectOneMenu>
 
                         <h:outputLabel for="group" value="Group"/>
                         <p:selectOneMenu id="group" label="Select Group" value="#{registrationBean.group}">
-                            <f:selectItem itemLabel="#{registrationBean.GROUP_1}"
-                                          itemValue="#{registrationBean.GROUP_1}"/>
-                            <f:selectItem itemLabel="#{registrationBean.GROUP_2}"
-                                          itemValue="#{registrationBean.GROUP_2}"/>
-                            <f:selectItem itemLabel="#{registrationBean.GROUP_3}"
-                                          itemValue="#{registrationBean.GROUP_3}"/>
-                            <f:selectItem itemLabel="#{registrationBean.GROUP_4}"
-                                          itemValue="#{registrationBean.GROUP_4}"/>
-                            <f:selectItem itemLabel="#{registrationBean.GROUP_5}"
-                                          itemValue="#{registrationBean.GROUP_5}"/>
-                            <f:selectItem itemLabel="#{registrationBean.GROUP_6}"
-                                          itemValue="#{registrationBean.GROUP_6}"/>
-                            <f:selectItem itemLabel="#{registrationBean.GROUP_7}"
-                                          itemValue="#{registrationBean.GROUP_7}"/>
+                            <f:selectItems value="#{registrationBean.availableGroups}"/>
+                            <f:selectItem itemValue="All" itemLabel="All"/>
                         </p:selectOneMenu>
 
                         <f:facet name="footer">

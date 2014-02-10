@@ -2,8 +2,9 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml"
-      xmlns:ui="http://java.sun.com/jsf/facelets" xmlns:h="http://java.sun.com/jsf/html"
-        >
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:h="http://java.sun.com/jsf/html">
 
 
 <body>
@@ -11,45 +12,27 @@
 
     <!-- HEADER -->
     <div id="header">
-                    <div id="logoArea" align="center">
+        <div id="logoArea" align="center">
+            <table>
+                <tr>
+                    <td align="left">
                         <p><font size="16" color="white">Dallas Regional Sunday School Competitions</font></p>
-                    <!--<h:graphicImage name="images/top_logo.jpg" width="1000" height="220" />-->
-                    </div>
+                    </td>
+                    <td align="right">
+                        <h:form>
+                            <p:menuButton value="Help">
+                                <p:menuitem value="Competition Guidelines"
+                                            url="https://drive.google.com/file/d/0B2G9VVIfgX7QM1FkRm9UM3BHOU1PYU9nTzdFajJUbjdkcVdF/edit?usp=sharing"/>
+                                <p:menuitem value="Competition Topics"
+                                            url="https://drive.google.com/file/d/0B2G9VVIfgX7Qc19PTmhYRzRPQzM5SGplRXNKUkhjNmM4WnRr/edit?usp=sharing"/>
+                                <p:menuitem value="Logout" url="/j_spring_security_logout"/>
+                            </p:menuButton>
+                        </h:form>
+                    </td>
 
-                <!--<td align="right" valign="middle">
-                    <nav class="main-menu-container">
-                        <ul id="main-menu" class="sf-menu">
-                            <ui:fragment rendered="#{request.remoteUser == null}">
-                                &lt;!&ndash;
-                                                        <li id="menu-item-1763"
-                                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1763">
-                                                            <a href="/goals.xhtml">Explore</a>
-                                                        </li>
-                                &ndash;&gt;
-                                <li id="menu-item-1763"
-                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1763">
-                                    <a href="/login.xhtml">Login</a>
-                                </li>
-                            </ui:fragment>
-
-                            <ui:fragment rendered="#{request.remoteUser != null}">
-                                <li id="menu-item-1763"
-                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1763">
-                                    <a href="/manageAccount.xhtml">Account</a>
-                                </li>
-                                <li id="menu-item-1763"
-                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1763">
-                                    <a href="/createInvestment.xhtml">Portfolio</a>
-                                </li>
-                                <li id="menu-item-1767"
-                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1767">
-                                    <a href="j_spring_security_logout">Logout</a>
-                                </li>
-                            </ui:fragment>
-                        </ul>
-                    </nav>
-                </td>-->
-        <hr/>
+                </tr>
+            </table>
+        </div>
     </div>
 
 </ui:composition>

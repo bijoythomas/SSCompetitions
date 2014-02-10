@@ -1,8 +1,6 @@
 package com.sundayschool.beans;
 
-import com.sundayschool.constants.Categories;
 import com.sundayschool.constants.ChurchNames;
-import com.sundayschool.constants.Groups;
 import com.sundayschool.persistence.HibernateUtil;
 import org.hibernate.Query;
 import org.hibernate.Transaction;
@@ -16,6 +14,8 @@ import javax.faces.context.FacesContext;
 import java.util.*;
 
 import static com.sundayschool.beans.StudentInfo.categoryMapLookup;
+import static com.sundayschool.constants.Categories.*;
+import static com.sundayschool.constants.Groups.*;
 
 @ManagedBean
 @SessionScoped
@@ -32,30 +32,6 @@ public class RegistrationBean {
     List<String> availableChurches;
     List<String> availableCategories;
     List<String> availableGroups;
-
-    // Church Constants
-    public static String SMFB = "St. Mary's, Farmers Branch";
-    public static String SMCOI = "St. Mary's COI, Carrollton";
-    public static String SGIR = "St. George, Irving";
-    public static String STDL = "St. Thomas, Dallas";
-    public static String SPPL = "St. Paul's, Plano";
-    public static String SGGL = "St. Gregorios, Garland";
-
-    // Category Constants
-    public static String BIBLE_QUIZ = "Bible Quiz";
-    public static String STORY_WRITING = "Story Writing";
-    public static String POETRY = "Poetry";
-    public static String DRAWING = "Drawing";
-    public static String ESSAY_WRITING = "Essay Writing";
-
-    // Group Constants
-    public static String GROUP_1 = "Group 1";
-    public static String GROUP_2 = "Group 2";
-    public static String GROUP_3 = "Group 3";
-    public static String GROUP_4 = "Group 4";
-    public static String GROUP_5 = "Group 5";
-    public static String GROUP_6 = "Group 6";
-    public static String GROUP_7 = "Group 7";
 
     private PieChartModel pieModel = new PieChartModel();
 
@@ -164,70 +140,6 @@ public class RegistrationBean {
         this.pieModel = pieModel;
     }
 
-    public String getSMFB() {
-        return SMFB;
-    }
-
-    public String getSMCOI() {
-        return SMCOI;
-    }
-
-    public String getSGIR() {
-        return SGIR;
-    }
-
-    public String getSTDL() {
-        return STDL;
-    }
-
-    public String getSPPL() {
-        return SPPL;
-    }
-
-    public String getSGGL() {
-        return SGGL;
-    }
-
-    public String getBIBLE_QUIZ() {
-        return BIBLE_QUIZ;
-    }
-
-    public void setBIBLE_QUIZ(String BIBLE_QUIZ) {
-        this.BIBLE_QUIZ = BIBLE_QUIZ;
-    }
-
-    public String getSTORY_WRITING() {
-        return STORY_WRITING;
-    }
-
-    public void setSTORY_WRITING(String STORY_WRITING) {
-        this.STORY_WRITING = STORY_WRITING;
-    }
-
-    public String getPOETRY() {
-        return POETRY;
-    }
-
-    public void setPOETRY(String POETRY) {
-        this.POETRY = POETRY;
-    }
-
-    public String getDRAWING() {
-        return DRAWING;
-    }
-
-    public void setDRAWING(String DRAWING) {
-        this.DRAWING = DRAWING;
-    }
-
-    public String getESSAY_WRITING() {
-        return ESSAY_WRITING;
-    }
-
-    public void setESSAY_WRITING(String ESSAY_WRITING) {
-        this.ESSAY_WRITING = ESSAY_WRITING;
-    }
-
     public List getStudentInfoList() {
         return studentInfoList;
     }
@@ -276,62 +188,6 @@ public class RegistrationBean {
         this.church = church;
     }
 
-    public String getGROUP_1() {
-        return GROUP_1;
-    }
-
-    public void setGROUP_1(String GROUP_1) {
-        this.GROUP_1 = GROUP_1;
-    }
-
-    public String getGROUP_2() {
-        return GROUP_2;
-    }
-
-    public void setGROUP_2(String GROUP_2) {
-        this.GROUP_2 = GROUP_2;
-    }
-
-    public String getGROUP_3() {
-        return GROUP_3;
-    }
-
-    public void setGROUP_3(String GROUP_3) {
-        this.GROUP_3 = GROUP_3;
-    }
-
-    public String getGROUP_4() {
-        return GROUP_4;
-    }
-
-    public void setGROUP_4(String GROUP_4) {
-        this.GROUP_4 = GROUP_4;
-    }
-
-    public String getGROUP_5() {
-        return GROUP_5;
-    }
-
-    public void setGROUP_5(String GROUP_5) {
-        this.GROUP_5 = GROUP_5;
-    }
-
-    public String getGROUP_6() {
-        return GROUP_6;
-    }
-
-    public void setGROUP_6(String GROUP_6) {
-        this.GROUP_6 = GROUP_6;
-    }
-
-    public String getGROUP_7() {
-        return GROUP_7;
-    }
-
-    public void setGROUP_7(String GROUP_7) {
-        this.GROUP_7 = GROUP_7;
-    }
-
     public List<StudentInfo> getSearchList() {
         return searchList;
     }
@@ -350,8 +206,8 @@ public class RegistrationBean {
     }
 
     public List<String> getAvailableCategories() {
-        return Arrays.asList(Categories.BIBLE_QUIZ, Categories.DRAWING, Categories.ESSAY_WRITING,
-                Categories.STORY_WRITING, Categories.POETRY);
+//        return Arrays.asList(BIBLE_QUIZ, DRAWING, ESSAY_WRITING, STORY_WRITING, POETRY);
+        return Arrays.asList(GROUP_SONG_ENGLISH, GROUP_SONG_MALAYALAM, SOLO_SONG_ENGLISH, SOLO_SONG_MALAYALAM, ELOCUTION);
     }
 
     public void setAvailableCategories(List<String> availableCategories) {
@@ -359,8 +215,7 @@ public class RegistrationBean {
     }
 
     public List<String> getAvailableGroups() {
-        return Arrays.asList(Groups.GROUP_1, Groups.GROUP_2, Groups.GROUP_3, Groups.GROUP_4,
-                Groups.GROUP_5, Groups.GROUP_6, Groups.GROUP_7);
+        return Arrays.asList(GROUP_1, GROUP_2, GROUP_3, GROUP_4, GROUP_5, GROUP_6, GROUP_7);
     }
 
     public void setAvailableGroups(List<String> availableGroups) {
