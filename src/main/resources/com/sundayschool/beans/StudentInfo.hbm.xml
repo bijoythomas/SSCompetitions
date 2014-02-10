@@ -4,8 +4,8 @@
         "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
 
 <hibernate-mapping>
-    <class name="com.sundayschool.beans.StudentInfo" table="SS_COMPETITION">
-        <meta attribute="class-description">
+    <class name="com.sundayschool.beans.StudentInfo" table="SS_ORAL_COMPETITION">
+    <meta attribute="class-description">
             This class contains the employee detail.
         </meta>
         <id name="id" type="java.lang.Integer" column="id">

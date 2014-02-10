@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6ba49958-4d69-49f1-aca6-77a1de534816" name="Default" comment="Login redirection based on roles">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/sundayschool/constants/Categories.java" afterPath="$PROJECT_DIR$/src/main/java/com/sundayschool/constants/Categories.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/sundayschool/beans/RegistrationBean.java" afterPath="$PROJECT_DIR$/src/main/java/com/sundayschool/beans/RegistrationBean.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/sundayschool/beans/StudentInfo.java" afterPath="$PROJECT_DIR$/src/main/java/com/sundayschool/beans/StudentInfo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/commonFooter.xhtml" afterPath="$PROJECT_DIR$/src/main/webapp/commonFooter.xhtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/commonHeader.xhtml" afterPath="$PROJECT_DIR$/src/main/webapp/commonHeader.xhtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/competitions.xhtml" afterPath="$PROJECT_DIR$/src/main/webapp/competitions.xhtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/piechart.xhtml" afterPath="$PROJECT_DIR$/src/main/webapp/piechart.xhtml" />
+    <list default="true" id="6ba49958-4d69-49f1-aca6-77a1de534816" name="Default" comment="Cleanup constants and add help menu">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/com/sundayschool/beans/StudentInfo.hbm.xml" afterPath="$PROJECT_DIR$/src/main/resources/com/sundayschool/beans/StudentInfo.hbm.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="JavaServerFaces.iws" />
@@ -74,13 +68,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="RegistrationBean.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/sundayschool/beans/RegistrationBean.java">
+      <file leaf-file-name="StudentInfo.hbm.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/com/sundayschool/beans/StudentInfo.hbm.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="111" column="34" selection-start="4776" selection-end="4776" vertical-scroll-proportion="0.26288658" vertical-offset="1785" max-vertical-offset="3315">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="5" column="19" selection-start="209" selection-end="209" vertical-scroll-proportion="0.21197008" vertical-offset="0" max-vertical-offset="493">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -128,6 +120,7 @@
         <option value="$PROJECT_DIR$/src/main/webapp/piechart.xhtml" />
         <option value="$PROJECT_DIR$/src/main/java/com/sundayschool/beans/StudentInfo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sundayschool/beans/RegistrationBean.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/com/sundayschool/beans/StudentInfo.hbm.xml" />
       </list>
     </option>
   </component>
@@ -356,6 +349,10 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -432,6 +429,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="sundayschool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="persistence" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -899,7 +900,11 @@
       <created>1391990781221</created>
       <updated>1391990781221</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Cleanup constants and add help menu">
+      <created>1392056655145</created>
+      <updated>1392056655145</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -984,7 +989,8 @@
     </option>
     <MESSAGE value="Modified themes for all pages" />
     <MESSAGE value="Login redirection based on roles" />
-    <option name="LAST_COMMIT_MESSAGE" value="Login redirection based on roles" />
+    <MESSAGE value="Cleanup constants and add help menu" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cleanup constants and add help menu" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -1042,20 +1048,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/db.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="70" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="864" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/com/sundayschool/beans/StudentInfo.hbm.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="32" selection-start="613" selection-end="621" vertical-scroll-proportion="0.3536404" vertical-offset="0" max-vertical-offset="673">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/commonContent.xhtml">
@@ -1251,10 +1243,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sundayschool/beans/RegistrationBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="111" column="34" selection-start="4776" selection-end="4776" vertical-scroll-proportion="0.26288658" vertical-offset="1785" max-vertical-offset="3315">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="104" column="27" selection-start="4371" selection-end="4371" vertical-scroll-proportion="0.33247423" vertical-offset="1639" max-vertical-offset="3281">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="57" selection-start="799" selection-end="799" vertical-scroll-proportion="0.5087282" vertical-offset="0" max-vertical-offset="401">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/sundayschool/beans/StudentInfo.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="19" selection-start="209" selection-end="209" vertical-scroll-proportion="0.21197008" vertical-offset="0" max-vertical-offset="493">
+          <folding />
         </state>
       </provider>
     </entry>
