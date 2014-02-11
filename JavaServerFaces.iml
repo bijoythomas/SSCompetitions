@@ -51,9 +51,9 @@
     <orderEntry type="library" name="Maven: dom4j:dom4j:1.6" level="project" />
     <orderEntry type="library" name="Maven: javax.transaction:jta:1.1" level="project" />
     <orderEntry type="library" name="Maven: hibernate:antlr:2.7.5H3" level="project" />
-    <orderEntry type="library" name="Maven: org.primefaces.extensions:primefaces-extensions:0.7.0" level="project" />
-    <orderEntry type="library" name="Maven: org.primefaces:primefaces:3.5" level="project" />
-    <orderEntry type="library" name="Maven: com.google.code.gson:gson:2.2.2" level="project" />
+    <orderEntry type="library" name="Maven: org.primefaces.extensions:primefaces-extensions:1.2.1" level="project" />
+    <orderEntry type="library" name="Maven: org.primefaces:primefaces:4.0" level="project" />
+    <orderEntry type="library" name="Maven: com.google.code.gson:gson:2.2.4" level="project" />
     <orderEntry type="library" name="Maven: org.apache.commons:commons-lang3:3.1" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: javax.servlet:servlet-api:2.5" level="project" />
     <orderEntry type="library" name="Maven: org.primefaces.themes:ui-darkness:1.0.6" level="project" />
