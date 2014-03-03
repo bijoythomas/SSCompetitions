@@ -239,20 +239,26 @@
 </p:tab>
 
 <p:tab id="maptab" title="Maps">
-    <table>
-        <tr>
-            <td>
-                <p:selectOneListbox size="100" id="churches" label="Select Church" value="#{registrationBean.church}">
-                    <f:selectItems value="#{registrationBean.availableChurches}"/>
-                </p:selectOneListbox>
-            </td>
-            <td>
-                <script src="http://maps.google.com/maps/api/js?sensor=false" type="application/javascript"></script>
-                <p:gmap center="41.381542, 2.122893" zoom="15" type="ROADMAP" style="width:600px;height:400px"/>
-            </td>
-        </tr>
-    </table>
+    <h:form id="mapform">
+        <table>
+            <tr>
+                <td>
+                    <p:selectOneListbox id="churches" label="Select Church" value="#{mapBean.church}">
+                        <f:selectItems value="#{registrationBean.availableChurches}"/>
+                        <p:ajax update=":tabView:mapform:mymap" listener="#{mapBean.updateMap}"/>
+                    </p:selectOneListbox>
+                </td>
+                <td>
+                    <script src="http://maps.google.com/maps/api/js?sensor=false"
+                            type="application/javascript"></script>
 
+                    <p:gmap id="mymap" model="#{mapBean.mapModel}" center="#{mapBean.center}" zoom="15" type="ROADMAP"
+                            style="width:600px;height:400px"/>
+
+                </td>
+            </tr>
+        </table>
+    </h:form>
 
 </p:tab>
 </p:tabView>
