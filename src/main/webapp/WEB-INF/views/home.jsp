@@ -7,8 +7,8 @@
 <body>
 <a href=<c:url value="/j_spring_security_logout"/>>Logout</a><br/>
 <sec:authorize ifNotGranted="ROLE_JUDGE">
-<a href="faces/register.xhtml">Register</a><br/>
-<a href="faces/search.xhtml">Search</a><br/>
+    <a href="faces/register.xhtml">Register Your Student</a><br/>
+    <a href="faces/search.xhtml">Search</a><br/>
 <a href="faces/piechart.xhtml">Pie Chart</a>
 </sec:authorize>
 
