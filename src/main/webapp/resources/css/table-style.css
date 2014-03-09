@@ -1,0 +1,82 @@
+.order-table{
+    border-collapse:collapse;
+}
+
+.order-table-header{
+    text-align:center;
+    background:none repeat scroll 0 0 #E5E5E5;
+    border-bottom:1px solid #BBBBBB;
+    padding:16px;
+}
+
+.order-table-odd-row{
+    text-align:center;
+    background:none repeat scroll 0 0 #FFFFFFF;
+    border-top:1px solid #BBBBBB;
+}
+
+.order-table-even-row{
+    text-align:center;
+    background:none repeat scroll 0 0 #F9F9F9;
+    border-top:1px solid #BBBBBB;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 100px;
+    width: 100%;
+    padding-top: 18px;
+    background: url(images/bg-footer.png) repeat-x left top;
+}
+
+.footer p {
+    font-size: 14px;
+    font-family: 'ColaborateLightRegular', Arial, sans-serif;
+    padding: .5em .25em .5em 1em;
+    color:rgb(55,76,119);
+    background: rgb(110,138,195);
+    -moz-border-radius: 2px 0 0 0;
+    border-radius: 2px 0 0 0;
+    margin: 0;
+}
+
+.nav {
+    margin: 10px 0 0 100px;
+}
+
+.nav li {
+    display: inline-block;
+}
+
+.nav a, .example {
+    display: inline-block;
+    font-family: 'ColaborateLightRegular', Arial, sans-serif;
+    font-size: 12px;
+    color: rgb(255,255,255);
+    text-decoration: none;
+    -moz-border-radius: 0.25em;
+    border-radius: 0.25em;
+    padding: .25em .5em;
+    background-color: rgba(107,124,159, .75);
+    -webkit-transition: all .25s ease-in;
+    -moz-transition: all .25s ease-in;
+    -o-transition: all .25s ease-in;
+    transition: all .25s ease-in;
+    cursor: pointer;
+}
+
+.nav a:hover, .example:hover{
+    background-color: rgba(255,255,255,.85);
+    color: rgb(0,0,0);
+}
+
+a {
+    color: rgba(255,255,255,.75);
+}
+
+html , body{
+    line-height: 1;
+    background-color: #334873;
+    background-image: url(images/bg-page2.png);
+}
