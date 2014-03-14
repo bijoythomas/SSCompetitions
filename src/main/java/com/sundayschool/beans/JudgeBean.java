@@ -12,35 +12,33 @@ import javax.faces.context.FacesContext;
 
 @ManagedBean
 @SessionScoped
-public class JudgeBean
-{
+public class JudgeBean {
     String judge1 = "Judge 1";
     String judge2 = "Judge 2";
     String judge3 = "Judge 3";
+    String judge4 = "Judge 4";
+    String judge5 = "Judge 5";
+    String judge6 = "Judge 6";
     String selectedJudge;
     String score;
     int id;
 
-    public String saveScore()
-    {
+    public String saveScore() {
         Session session = HibernateUtil.getSessionFactory().openSession();
         Transaction transaction = session.beginTransaction();
-        Query query = session.createQuery("update StudentInfo set " + getUpdateColumn(selectedJudge) + " = :score where id = :id" );
+        Query query = session.createQuery("update StudentInfo set " + getUpdateColumn(selectedJudge) + " = :score where id = :id");
         query.setParameter("score", score);
         query.setParameter("id", id);
         int result = query.executeUpdate();
         transaction.commit();
         session.close();
 
-        if (result == 1)
-        {
+        if (result == 1) {
             FacesMessage facesMessage = new FacesMessage(FacesMessage.SEVERITY_INFO,
                     "Info message", selectedJudge.toUpperCase() + " marks for ID " + id + " updated to " + score);
             FacesContext.getCurrentInstance().addMessage(null, facesMessage);
             return null;
-        }
-        else
-        {
+        } else {
             FacesMessage facesMessage = new FacesMessage("Error updating score");
             FacesContext.getCurrentInstance().addMessage(null, facesMessage);
             return null;
@@ -52,8 +50,14 @@ public class JudgeBean
             return "judge1Marks";
         else if (selectedJudge.equals(judge2))
             return "judge2Marks";
-        else
+        else if (selectedJudge.equals(judge3))
             return "judge3Marks";
+        else if (selectedJudge.equals(judge4))
+            return "judge4Marks";
+        else if (selectedJudge.equals(judge5))
+            return "judge5Marks";
+        else
+            return "judge6Marks";
     }
 
     public int getId() {
@@ -102,5 +106,17 @@ public class JudgeBean
 
     public void setJudge3(String judge3) {
         this.judge3 = judge3;
+    }
+
+    public String getJudge4() {
+        return judge4;
+    }
+
+    public String getJudge5() {
+        return judge5;
+    }
+
+    public String getJudge6() {
+        return judge6;
     }
 }

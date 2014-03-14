@@ -5,7 +5,7 @@
 
 <hibernate-mapping>
     <class name="com.sundayschool.beans.StudentInfo" table="SS_ORAL_COMPETITION">
-    <meta attribute="class-description">
+        <meta attribute="class-description">
             This class contains the employee detail.
         </meta>
         <id name="id" type="java.lang.Integer" column="id">
@@ -20,5 +20,8 @@
         <property name="judge1Marks" column="judge1_marks" type="integer"/>
         <property name="judge2Marks" column="judge2_marks" type="integer"/>
         <property name="judge3Marks" column="judge3_marks" type="integer"/>
+        <property name="judge4Marks" column="judge4_marks" type="integer"/>
+        <property name="judge5Marks" column="judge5_marks" type="integer"/>
+        <property name="judge6Marks" column="judge6_marks" type="integer"/>
     </class>
 </hibernate-mapping>

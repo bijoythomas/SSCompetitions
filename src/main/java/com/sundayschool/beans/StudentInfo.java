@@ -2,8 +2,7 @@ package com.sundayschool.beans;
 
 import com.google.common.base.Joiner;
 
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 
 import static com.sundayschool.constants.Categories.*;
 import static java.util.Arrays.asList;
@@ -20,6 +19,9 @@ public class StudentInfo {
     int judge1Marks;
     int judge2Marks;
     int judge3Marks;
+    int judge4Marks;
+    int judge5Marks;
+    int judge6Marks;
     int totalMarks;
 
     public static Map<String, String> categoryMapLookup = new HashMap<String, String>();
@@ -122,6 +124,30 @@ public class StudentInfo {
         this.judge3Marks = judge3Marks;
     }
 
+    public int getJudge4Marks() {
+        return judge4Marks;
+    }
+
+    public void setJudge4Marks(int judge4Marks) {
+        this.judge4Marks = judge4Marks;
+    }
+
+    public int getJudge5Marks() {
+        return judge5Marks;
+    }
+
+    public void setJudge5Marks(int judge5Marks) {
+        this.judge5Marks = judge5Marks;
+    }
+
+    public int getJudge6Marks() {
+        return judge6Marks;
+    }
+
+    public void setJudge6Marks(int judge6Marks) {
+        this.judge6Marks = judge6Marks;
+    }
+
     public String getCategory() {
         return category;
     }
@@ -131,7 +157,9 @@ public class StudentInfo {
     }
 
     public int getTotalMarks() {
-        return judge1Marks + judge2Marks + judge3Marks;
+        List<Integer> scores = new LinkedList<Integer>(Arrays.asList(judge1Marks, judge2Marks, judge3Marks, judge4Marks, judge5Marks, judge6Marks));
+        Collections.sort(scores);
+        return (scores.get(1) + scores.get(2) + scores.get(3) + scores.get(4)) / 4;
     }
 
     public void setTotalMarks(int totalMarks) {
