@@ -100,9 +100,11 @@ public class RegistrationBean {
         pieModel.clear();
         distributionDataList.clear();
         Session session = HibernateUtil.getSessionFactory().openSession();
-        Query query = session.createQuery("from StudentInfo where ssGroup = :ssGroup and categoryCode = :categoryCode");
-        query.setParameter("ssGroup", this.group);
-        query.setParameter("categoryCode", categoryMapLookup.get(this.category));
+        Query query = session.createQuery("from StudentInfo where ssGroup like :ssGroup and categoryCode like :categoryCode");
+        String group = this.group.equals("All") ? "%" : this.group;
+        query.setParameter("ssGroup", group);
+        String category = this.category.equals("All") ? "%" : categoryMapLookup.get(this.category);
+        query.setParameter("categoryCode", category);
         List<StudentInfo> list = query.list();
         Map<String, Integer> results = new HashMap<String, Integer>();
         for (StudentInfo studentInfo : list) {
