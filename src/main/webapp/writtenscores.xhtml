@@ -1,0 +1,94 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:p="http://primefaces.org/ui">
+<h:head>
+    <title>Sunday School Written Competition Student Registration</title>
+    <h:outputStylesheet library="css" name="table-style.css"/>
+</h:head>
+<h:body>
+    <ui:composition template="/commonLayout.xhtml">
+        <ui:define name="content">
+            <p:notificationBar position="top" effect="slide" widgetVar="bar" styleClass="top">
+                <h:outputText value="What PrimeFaces has so far is just the beginning!"
+                              style="color:#2245ff;font-size:36px;"/>
+            </p:notificationBar>
+
+            <h:form>
+                <p:panelGrid id="panel" columns="2">
+                    <f:facet name="header">Scores Form</f:facet>
+
+                    <h:outputLabel for="judge" value="Select Judge"/>
+                    <p:selectOneMenu id="judge" label="Select Judge" value="#{writtenJudgeBean.selectedJudge}">
+                        <f:selectItem itemLabel="#{judgeBean.judge1}" itemValue="#{writtenJudgeBean.judge1}"/>
+                        <f:selectItem itemLabel="#{judgeBean.judge2}" itemValue="#{writtenJudgeBean.judge2}"/>
+                        <f:selectItem itemLabel="#{judgeBean.judge3}" itemValue="#{writtenJudgeBean.judge3}"/>
+                        <f:selectItem itemLabel="#{judgeBean.judge4}" itemValue="#{writtenJudgeBean.judge4}"/>
+                        <f:selectItem itemLabel="#{judgeBean.judge5}" itemValue="#{writtenJudgeBean.judge5}"/>
+                        <f:selectItem itemLabel="#{judgeBean.judge6}" itemValue="#{writtenJudgeBean.judge6}"/>
+                    </p:selectOneMenu>
+
+                    <h:outputLabel for="studentid" value="Enter Competition ID"/>
+                    <p:inputText id="studentid" size="20" value="#{writtenJudgeBean.id}"/>
+                    <!--</p:panelGrid>-->
+
+                    <!--<p:panelGrid id="scorecard" columns="1">-->
+                    <p:accordionPanel activeIndex="null">
+                        <p:tab title="Song Scorecard">
+                            <h:panelGrid id="songscorecard" columns="2" cellpadding="10">
+                                <h:outputLabel for="songdd" value="Diction and Dynamics (25)"/>
+                                <p:inputText id="songdd" size="20" value="#{writtenJudgeBean.songDictionAndDynamics}"/>
+
+                                <h:outputLabel for="songpresentation" value="Presentation (25)"/>
+                                <p:inputText id="songpresentation" size="20"
+                                             value="#{writtenJudgeBean.songPresentation}"/>
+
+                                <h:outputLabel for="songphrasing" value="Phrasing (25)"/>
+                                <p:inputText id="songphrasing" size="20" value="#{writtenJudgeBean.songPhrasing}"/>
+
+                                <h:outputLabel for="songpitch" value="Pitch (25)"/>
+                                <p:inputText id="songpitch" size="20" value="#{writtenJudgeBean.songPitch}"/>
+
+                                <f:facet name="footer">
+                                    <p:commandButton id="saveSongScore" value="Update"
+                                                     action="#{writtenJudgeBean.saveSongScore}"/>
+                                </f:facet>
+
+                                <p:blockUI block="songscorecard" trigger="saveSongScore"/>
+                            </h:panelGrid>
+                        </p:tab>
+                        <p:tab title="Elocution Scorecard">
+                            <h:panelGrid id="elocutionscorecard" columns="2" cellpadding="10">
+                                <h:outputLabel for="intro" value="Introduction (15)"/>
+                                <p:inputText id="intro" size="20" value="#{writtenJudgeBean.elocutionIntroduction}"/>
+
+                                <h:outputLabel for="knowledge" value="Knowledge (35)"/>
+                                <p:inputText id="knowledge" size="20" value="#{writtenJudgeBean.knowledge}"/>
+
+                                <h:outputLabel for="elocutionpresentation" value="Presentation (35)"/>
+                                <p:inputText id="elocutionpresentation" size="20"
+                                             value="#{writtenJudgeBean.elocutionPresentation}"/>
+
+                                <h:outputLabel for="conclusion" value="Conclusion (15)"/>
+                                <p:inputText id="conclusion" size="20" value="#{writtenJudgeBean.conclusion}"/>
+
+                                <f:facet name="footer">
+                                    <p:commandButton id="saveElocutionScore" value="Update"
+                                                     action="#{writtenJudgeBean.saveElocutionScore}"/>
+                                </f:facet>
+
+                                <p:blockUI block="elocutionscorecard" trigger="saveElocutionScore"/>
+                            </h:panelGrid>
+                        </p:tab>
+                    </p:accordionPanel>
+                </p:panelGrid>
+
+                <p><p:messages id="messages" showDetail="true" autoUpdate="true" closable="true"/></p>
+            </h:form>
+        </ui:define>
+    </ui:composition>
+</h:body>
+</html>

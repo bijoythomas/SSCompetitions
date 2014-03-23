@@ -65,7 +65,7 @@ public class AuthenticatedRedirectionHandler implements AuthenticationSuccessHan
         } else if (isAdmin) {
             return "/faces/showall.xhtml";
         } else if (isJudge) {
-            return "faces/scores.xhtml";
+            return "faces/writtenscores.xhtml";
         } else {
             throw new IllegalStateException();
         }
